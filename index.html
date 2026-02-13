@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dinudsi — Full Stack Architect &amp; AI Innovator</title>
+  <meta name="description" content="Portfolio of Dinudsi — AI Engineer, Full Stack Developer, and Indie Hacker building intelligent, scalable systems since 2009." />
+  <meta name="theme-color" content="#0a0a1a" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Animated background -->
+  <canvas id="particles"></canvas>
+  <div class="gradient-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>dinudsi<span class="logo-bracket"> /&gt;</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#stack" class="nav-link">Stack</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge fade-in">
+        <span class="badge-dot"></span>
+        Available for collaborations
+      </div>
+      <h1 class="hero-title fade-in">
+        <span class="hero-greeting">Hi, I'm</span>
+        <span class="hero-name">
+          <span class="gradient-text">Dinudsi</span>
+        </span>
+      </h1>
+      <div class="hero-roles fade-in">
+        <span class="typing-text" id="typingText"></span>
+        <span class="cursor">|</span>
+      </div>
+      <p class="hero-tagline fade-in">
+        From scripts to startups — since 2009<br />
+        <strong>I build what others imagine.</strong>
+      </p>
+      <div class="hero-stats fade-in">
+        <div class="stat">
+          <span class="stat-number" data-count="12">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-count="29">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Repositories</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-count="414">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Followers</span>
+        </div>
+      </div>
+      <div class="hero-cta fade-in">
+        <a href="#projects" class="btn btn-primary">
+          <span>View My Work</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          <span>Get in Touch</span>
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual fade-in">
+      <div class="code-window">
+        <div class="code-header">
+          <div class="code-dots">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <span class="code-title">dinudsi.config.ts</span>
+        </div>
+        <pre class="code-body"><code><span class="code-keyword">const</span> <span class="code-var">developer</span> = {
+  <span class="code-prop">name</span>: <span class="code-string">"Dinudsi"</span>,
+  <span class="code-prop">role</span>: <span class="code-string">"Full Stack Architect"</span>,
+  <span class="code-prop">location</span>: <span class="code-string">"Udaipur, India 🇮🇳"</span>,
+  <span class="code-prop">passions</span>: [
+    <span class="code-string">"AI/ML"</span>,
+    <span class="code-string">"System Design"</span>,
+    <span class="code-string">"Product Strategy"</span>,
+  ],
+  <span class="code-prop">philosophy</span>: <span class="code-string">"Simple surface,
+    powerful core."</span>,
+  <span class="code-method">build</span>() {
+    <span class="code-keyword">return</span> <span class="code-string">"something amazing"</span>;
+  }
+};</code></pre>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">01 — About</span>
+        <h2 class="section-title">Crafting <span class="gradient-text">Intelligent Systems</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text fade-in">
+          <p class="about-lead">
+            I'm a hands-on architect and product strategist passionate about building <strong>intelligent, scalable, and modular systems</strong>.
+          </p>
+          <p>
+            With deep expertise across <strong>Spring Boot, Node.js, and AI-based architectures</strong>,
+            I bridge the gap between product vision and engineering execution. From real-time AI video analysis
+            to OAuth2 authorization servers, I design systems that solve real problems.
+          </p>
+          <div class="about-values">
+            <div class="value-card">
+              <span class="value-icon">⚙️</span>
+              <div>
+                <h4>Robust & Maintainable</h4>
+                <p>Crafted with clean architecture</p>
+              </div>
+            </div>
+            <div class="value-card">
+              <span class="value-icon">🤝</span>
+              <div>
+                <h4>Composable & Scalable</h4>
+                <p>Designed for distributed teams</p>
+              </div>
+            </div>
+            <div class="value-card">
+              <span class="value-icon">🧩</span>
+              <div>
+                <h4>Smart & Adaptive</h4>
+                <p>Powered by automation & ML</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-info fade-in">
+          <div class="info-card glass-card">
+            <h3>Quick Info</h3>
+            <ul class="info-list">
+              <li>
+                <span class="info-icon">📍</span>
+                <div><strong>Location</strong><br />Udaipur, India</div>
+              </li>
+              <li>
+                <span class="info-icon">🏢</span>
+                <div><strong>Companies</strong><br />Skywings LTD · Tune-itcon</div>
+              </li>
+              <li>
+                <span class="info-icon">🎯</span>
+                <div><strong>Focus</strong><br />AI/ML · Full Stack · DevOps</div>
+              </li>
+              <li>
+                <span class="info-icon">🦀</span>
+                <div><strong>Currently Learning</strong><br />Rust · Local LLMs · Privacy AI</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack Section -->
+  <section class="section section-dark" id="stack">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">02 — Tech Stack</span>
+        <h2 class="section-title">Tools of the <span class="gradient-text">Trade</span></h2>
+      </div>
+      <div class="stack-grid fade-in">
+        <div class="stack-category glass-card">
+          <div class="stack-icon-wrap"><span class="stack-emoji">🔧</span></div>
+          <h3>Backend</h3>
+          <div class="stack-tags">
+            <span class="tag">Spring Boot 3.x</span>
+            <span class="tag">Java</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">REST APIs</span>
+            <span class="tag">Reactive Systems</span>
+          </div>
+        </div>
+        <div class="stack-category glass-card">
+          <div class="stack-icon-wrap"><span class="stack-emoji">🤖</span></div>
+          <h3>AI / ML</h3>
+          <div class="stack-tags">
+            <span class="tag">OpenCV</span>
+            <span class="tag">YOLOv5</span>
+            <span class="tag">Flask</span>
+            <span class="tag">SmolVLM</span>
+            <span class="tag">LangChain</span>
+            <span class="tag">RAG</span>
+          </div>
+        </div>
+        <div class="stack-category glass-card">
+          <div class="stack-icon-wrap"><span class="stack-emoji">🔒</span></div>
+          <h3>Auth & Security</h3>
+          <div class="stack-tags">
+            <span class="tag">OAuth2</span>
+            <span class="tag">JWT</span>
+            <span class="tag">Spring Security</span>
+            <span class="tag">JPA Token Stores</span>
+          </div>
+        </div>
+        <div class="stack-category glass-card">
+          <div class="stack-icon-wrap"><span class="stack-emoji">🗄️</span></div>
+          <h3>Data & Storage</h3>
+          <div class="stack-tags">
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Solr</span>
+            <span class="tag">FAISS</span>
+            <span class="tag">Qdrant</span>
+            <span class="tag">Milvus</span>
+          </div>
+        </div>
+        <div class="stack-category glass-card">
+          <div class="stack-icon-wrap"><span class="stack-emoji">📱</span></div>
+          <h3>Frontend / Mobile</h3>
+          <div class="stack-tags">
+            <span class="tag">React Native</span>
+            <span class="tag">Ionic</span>
+          </div>
+        </div>
+        <div class="stack-category glass-card">
+          <div class="stack-icon-wrap"><span class="stack-emoji">☁️</span></div>
+          <h3>DevOps & Cloud</h3>
+          <div class="stack-tags">
+            <span class="tag">AWS</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Reverse Proxies</span>
+            <span class="tag">CI/CD</span>
+          </div>
+        </div>
+        <div class="stack-category glass-card">
+          <div class="stack-icon-wrap"><span class="stack-emoji">⚡</span></div>
+          <h3>Workflow</h3>
+          <div class="stack-tags">
+            <span class="tag">Camunda 7</span>
+            <span class="tag">Flowable BPMN</span>
+          </div>
+        </div>
+        <div class="stack-category glass-card">
+          <div class="stack-icon-wrap"><span class="stack-emoji">🛠️</span></div>
+          <h3>Automation</h3>
+          <div class="stack-tags">
+            <span class="tag">Puppeteer</span>
+            <span class="tag">Postman</span>
+            <span class="tag">API Testing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">03 — Projects</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Work</span></h2>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card glass-card fade-in">
+          <div class="project-accent accent-ai"></div>
+          <div class="project-header">
+            <span class="project-icon">🎯</span>
+            <div class="project-links">
+              <span class="project-badge">AI / Vision</span>
+            </div>
+          </div>
+          <h3>AI-Enabled CCTV Security System</h3>
+          <p>Real-time AI system for vehicle plate recognition, violence detection, and threat analysis. Integrated vision-language models (VLM) for contextual live video understanding.</p>
+          <div class="project-tags">
+            <span class="tag">YOLOv5</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">Flask</span>
+            <span class="tag">SmolVLM</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card glass-card fade-in">
+          <div class="project-accent accent-rag"></div>
+          <div class="project-header">
+            <span class="project-icon">📚</span>
+            <div class="project-links">
+              <span class="project-badge">AI / RAG</span>
+            </div>
+          </div>
+          <h3>RAG-based Educational AI Assistant</h3>
+          <p>Retrieval-Augmented Generation API providing personalized study responses from PDFs and markdown notes. API-first architecture, ready for mobile integration.</p>
+          <div class="project-tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Vector DB</span>
+            <span class="tag">ChatGPT API</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card glass-card fade-in">
+          <div class="project-accent accent-auth"></div>
+          <div class="project-header">
+            <span class="project-icon">🔐</span>
+            <div class="project-links">
+              <span class="project-badge">Security</span>
+            </div>
+          </div>
+          <h3>OAuth2 Authorization Server</h3>
+          <p>Production-ready OAuth2 JPA-based authorization server with client registration, token lifecycle management, user approval flows, and role-based authorities.</p>
+          <div class="project-tags">
+            <span class="tag">Spring Boot 3.2</span>
+            <span class="tag">OAuth2</span>
+            <span class="tag">JPA</span>
+            <span class="tag">JWT</span>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card glass-card fade-in">
+          <div class="project-accent accent-workflow"></div>
+          <div class="project-header">
+            <span class="project-icon">🔔</span>
+            <div class="project-links">
+              <span class="project-badge">Workflow</span>
+            </div>
+          </div>
+          <h3>Notification Workflow Engine</h3>
+          <p>BPMN-powered email notification tracking and inter-service event flow engine. Handles complex triggers like payment events across distributed services.</p>
+          <div class="project-tags">
+            <span class="tag">Camunda</span>
+            <span class="tag">Flowable</span>
+            <span class="tag">BPMN</span>
+            <span class="tag">Spring Boot</span>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card glass-card fade-in">
+          <div class="project-accent accent-fintech"></div>
+          <div class="project-header">
+            <span class="project-icon">💰</span>
+            <div class="project-links">
+              <span class="project-badge">Fintech</span>
+            </div>
+          </div>
+          <h3>Fintech & Social Media Platforms</h3>
+          <p>Built prototypes for a loan distribution app for the Indian market and a cross-platform social posting system with long-lived OAuth tokens for major platforms.</p>
+          <div class="project-tags">
+            <span class="tag">Full Stack</span>
+            <span class="tag">OAuth</span>
+            <span class="tag">Facebook</span>
+            <span class="tag">LinkedIn</span>
+          </div>
+        </div>
+
+        <!-- Project 6 - Commitify -->
+        <div class="project-card glass-card fade-in">
+          <div class="project-accent accent-oss"></div>
+          <div class="project-header">
+            <span class="project-icon">⚡</span>
+            <div class="project-links">
+              <a href="https://github.com/dinudsi/commitify" target="_blank" rel="noopener" class="project-link" title="View on GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+              <span class="project-badge">Open Source</span>
+            </div>
+          </div>
+          <h3>Commitify</h3>
+          <p>VS Code extension that automatically commits your changes every 5 minutes using GitHub Copilot to generate intelligent commit messages.</p>
+          <div class="project-tags">
+            <span class="tag">TypeScript</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Copilot</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DevOps & Architecture Highlights -->
+  <section class="section section-dark" id="experience">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">04 — Architecture</span>
+        <h2 class="section-title">Engineering <span class="gradient-text">Highlights</span></h2>
+      </div>
+      <div class="highlights-grid fade-in">
+        <div class="highlight-card glass-card">
+          <div class="highlight-icon">🏗️</div>
+          <h3>Microservice Blueprints</h3>
+          <p>Designed microservice architectures with secure inter-service authority sharing using non-HTTP access patterns.</p>
+        </div>
+        <div class="highlight-card glass-card">
+          <div class="highlight-icon">🔒</div>
+          <h3>Gateway Security</h3>
+          <p>Centralized CORS and gateway security using Spring Cloud Gateway for enterprise-grade API management.</p>
+        </div>
+        <div class="highlight-card glass-card">
+          <div class="highlight-icon">🧰</div>
+          <h3>AWS IAM Architecture</h3>
+          <p>Implemented role-based access model with Root, Developer, Management, and Support roles for cloud infrastructure.</p>
+        </div>
+        <div class="highlight-card glass-card">
+          <div class="highlight-icon">🚀</div>
+          <h3>Reverse Proxy Systems</h3>
+          <p>Built reverse proxies for Solr and internal APIs to improve reliability, performance, and access control.</p>
+        </div>
+      </div>
+
+      <!-- Philosophy -->
+      <div class="philosophy fade-in">
+        <div class="philosophy-inner glass-card">
+          <div class="quote-mark">"</div>
+          <blockquote>
+            Build systems that are simple at the surface, powerful at the core, and scalable for the future.
+          </blockquote>
+          <div class="philosophy-principles">
+            <div class="principle">
+              <span class="principle-icon">🧩</span>
+              <span>Architecture First — clarity before code</span>
+            </div>
+            <div class="principle">
+              <span class="principle-icon">⚡</span>
+              <span>Automate Everything — efficiency through workflows</span>
+            </div>
+            <div class="principle">
+              <span class="principle-icon">🤖</span>
+              <span>AI by Design — intelligence at every level</span>
+            </div>
+            <div class="principle">
+              <span class="principle-icon">🧠</span>
+              <span>Learn Relentlessly — exploring LLMs, Rust, privacy AI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">05 — Contact</span>
+        <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+      </div>
+      <div class="contact-content fade-in">
+        <p class="contact-lead">
+          Have an idea, a project, or just want to say hi?<br />
+          I'm always open to discussing new opportunities and collaborations.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:dpanchal.fullstack@gmail.com" class="contact-card glass-card">
+            <span class="contact-icon">✉️</span>
+            <div>
+              <strong>Email</strong>
+              <span>dpanchal.fullstack@gmail.com</span>
+            </div>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </a>
+          <a href="https://github.com/dinudsi" target="_blank" rel="noopener" class="contact-card glass-card">
+            <span class="contact-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </span>
+            <div>
+              <strong>GitHub</strong>
+              <span>github.com/dinudsi</span>
+            </div>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">
+          <span class="logo-bracket">&lt;</span>dinudsi<span class="logo-bracket"> /&gt;</span>
+        </span>
+        <p>Turning complex ideas into scalable, intelligent systems.</p>
+        <span class="footer-copy">&copy; 2026 Dinudsi. Built with passion.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
