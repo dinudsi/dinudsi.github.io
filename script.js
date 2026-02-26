@@ -202,6 +202,9 @@
   navToggle.addEventListener('click', () => {
     navToggle.classList.toggle('active');
     navLinks.classList.toggle('open');
+    // Accessibility: sync aria-expanded state
+    const isOpen = navLinks.classList.contains('open');
+    navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
   });
 
   // Close mobile nav on link click
