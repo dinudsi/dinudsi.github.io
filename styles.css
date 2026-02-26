@@ -9,6 +9,49 @@
   box-sizing: border-box;
 }
 
+/* --- Accessibility / SEO / GEO Utilities --- */
+
+/* Visually hidden but accessible to screen readers and AI crawlers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Skip to main content link (accessibility) */
+.skip-to-content {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--accent-1);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: var(--radius-sm);
+  z-index: 10000;
+  font-weight: 600;
+  transition: top 0.2s;
+}
+
+.skip-to-content:focus {
+  top: 12px;
+}
+
+/* Section subtitle for GEO descriptive paragraphs */
+.section-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  max-width: 700px;
+  margin: 12px auto 0;
+  line-height: 1.7;
+}
+
 :root {
   --bg-primary: #0a0a1a;
   --bg-secondary: #0f0f2a;
