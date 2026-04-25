@@ -117,11 +117,11 @@
 
   // --- Typing Animation ---
   const roles = [
-    'Full Stack Architect',
-    'AI Engineer',
-    'Product Strategist',
+    'AI-Native Developer',
+    'Agent Architect',
+    'Tool Builder',
     'Indie Hacker',
-    'Systems Innovator',
+    'Security Reviewer',
   ];
 
   const typingEl = document.getElementById('typingText');
