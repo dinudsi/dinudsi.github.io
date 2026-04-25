@@ -1,1022 +1,1642 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" prefix="og: https://ogp.me/ns#">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- ============================================
+        <!-- ============================================
        PRIMARY SEO META TAGS
        ============================================ -->
-  <title>Dinudsi — Full Stack Architect & AI Engineer | Portfolio</title>
-  <meta name="description"
-    content="Dinudsi is a Full Stack Architect and AI Engineer based in Udaipur, India. Specializing in Spring Boot, Node.js, AI/ML systems, OAuth2 security, and scalable microservice architectures since 2009. Available for collaborations." />
-  <meta name="author" content="Dinudsi" />
-  <meta name="keywords"
-    content="Dinudsi, Full Stack Developer, AI Engineer, Spring Boot developer, Node.js architect, machine learning engineer, OAuth2 expert, microservices architect, Udaipur India developer, portfolio, software architect, LangChain developer, RAG systems, computer vision engineer" />
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-  <meta name="googlebot" content="index, follow" />
-  <link rel="canonical" href="https://dinudsi.github.io/" />
-  <meta name="msvalidate.01" content="486B151DC504EFC39AAB7A0449310BBB" />
+        <title>
+            Dinudsi — Full Stack Architect & AI-Native Developer | Portfolio
+        </title>
+        <meta
+            name="description"
+            content="Dinudsi is a Full Stack Architect and AI-Native Developer. Expert in Spring Boot, Node.js, and microservices, augmented by AI tools like Claude Code, Codex, and custom MCP servers to deliver secure, scalable software rapidly."
+        />
+        <meta name="author" content="Dinudsi" />
+        <meta
+            name="keywords"
+            content="Dinudsi, AI-Native Developer, Agent Architect, Claude Code, Codex, OpenCode, Copilot CLI, MCP servers, AI agent orchestration, multi-agent systems, agent skills, security code review, custom dev tools, BrainSync, open source AI tools, rapid MVP delivery"
+        />
+        <meta
+            name="robots"
+            content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+        />
+        <meta name="googlebot" content="index, follow" />
+        <link rel="canonical" href="https://dinudsi.github.io/" />
+        <meta name="msvalidate.01" content="486B151DC504EFC39AAB7A0449310BBB" />
 
-  <!-- ============================================
+        <!-- ============================================
        GEO: GENERATIVE ENGINE OPTIMIZATION META
        Helps AI search engines (ChatGPT, Gemini, Perplexity) understand and cite this page
        ============================================ -->
-  <meta name="subject" content="Software Engineering Portfolio — Dinudsi" />
-  <meta name="topic" content="Full Stack Development, AI Engineering, System Architecture" />
-  <meta name="classification" content="Portfolio, Technology, Software Engineering" />
-  <meta name="category" content="Technology" />
-  <meta name="coverage" content="Worldwide" />
-  <meta name="distribution" content="global" />
-  <meta name="rating" content="general" />
-  <meta name="revisit-after" content="7 days" />
+        <meta
+            name="subject"
+            content="AI-Native Development Portfolio — Dinudsi"
+        />
+        <meta
+            name="topic"
+            content="AI Agent Development, MCP Servers, Agent Orchestration, Security"
+        />
+        <meta
+            name="classification"
+            content="Portfolio, AI Engineering, Agent Architecture"
+        />
+        <meta name="category" content="Technology" />
+        <meta name="coverage" content="Worldwide" />
+        <meta name="distribution" content="global" />
+        <meta name="rating" content="general" />
+        <meta name="revisit-after" content="7 days" />
 
-  <!-- ============================================
+        <!-- ============================================
        OPEN GRAPH (Facebook, LinkedIn, AI Summarizers)
        ============================================ -->
-  <meta property="og:type" content="profile" />
-  <meta property="og:title" content="Dinudsi — Full Stack Architect & AI Engineer" />
-  <meta property="og:description"
-    content="Portfolio of Dinudsi — AI Engineer, Full Stack Developer, and Indie Hacker building intelligent, scalable systems since 2009. Expert in Spring Boot, Node.js, AI/ML, OAuth2, and microservices." />
-  <meta property="og:url" content="https://dinudsi.github.io/" />
-  <meta property="og:site_name" content="Dinudsi Portfolio" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:image" content="https://avatars.githubusercontent.com/dinudsi" />
-  <meta property="og:image:alt" content="Dinudsi — Full Stack Architect & AI Engineer" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="profile:first_name" content="Dinudsi" />
-  <meta property="profile:username" content="dinudsi" />
+        <meta property="og:type" content="profile" />
+        <meta
+            property="og:title"
+            content="Dinudsi — Full Stack Architect & AI-Native Developer"
+        />
+        <meta
+            property="og:description"
+            content="Portfolio of Dinudsi — A hardcore Full Stack Architect who orchestrates AI agents to ship production software faster. Expert in backend systems, AI workflows, and custom dev tools."
+        />
+        <meta property="og:url" content="https://dinudsi.github.io/" />
+        <meta property="og:site_name" content="Dinudsi Portfolio" />
+        <meta property="og:locale" content="en_US" />
+        <meta
+            property="og:image"
+            content="https://avatars.githubusercontent.com/dinudsi"
+        />
+        <meta
+            property="og:image:alt"
+            content="Dinudsi — AI-Native Developer & Agent Architect"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="profile:first_name" content="Dinudsi" />
+        <meta property="profile:username" content="dinudsi" />
 
-  <!-- ============================================
+        <!-- ============================================
        TWITTER / X CARD
        ============================================ -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Dinudsi — Full Stack Architect & AI Engineer" />
-  <meta name="twitter:description"
-    content="AI Engineer & Full Stack Architect building intelligent, scalable systems since 2009. Spring Boot, Node.js, AI/ML, OAuth2, microservices." />
-  <meta name="twitter:image" content="https://avatars.githubusercontent.com/dinudsi" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:title"
+            content="Dinudsi — Full Stack Architect & AI-Native Developer"
+        />
+        <meta
+            name="twitter:description"
+            content="A hardcore Full Stack Architect who orchestrates AI agents to ship production software faster. Expert in backend systems, AI workflows, and custom dev tools."
+        />
+        <meta
+            name="twitter:image"
+            content="https://avatars.githubusercontent.com/dinudsi"
+        />
 
-  <!-- ============================================
+        <!-- ============================================
        THEME & ICONS
        ============================================ -->
-  <meta name="theme-color" content="#0a0a1a" />
-  <meta name="msapplication-TileColor" content="#0a0a1a" />
-  <link rel="icon"
-    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>" />
+        <meta name="theme-color" content="#0a0a1a" />
+        <meta name="msapplication-TileColor" content="#0a0a1a" />
+        <link
+            rel="icon"
+            href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>"
+        />
 
-  <!-- ============================================
+        <!-- ============================================
        PERFORMANCE & FONTS
        ============================================ -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="dns-prefetch" href="https://github.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="dns-prefetch" href="https://github.com" />
 
-  <!-- ============================================
+        <!-- ============================================
        STRUCTURED DATA — JSON-LD (Schema.org)
        Comprehensive structured data for SEO + GEO
        ============================================ -->
 
-  <!-- 1. WebSite Schema — helps AI engines understand site identity -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": "https://dinudsi.github.io/#website",
-    "url": "https://dinudsi.github.io/",
-    "name": "Dinudsi Portfolio",
-    "description": "Portfolio of Dinudsi — Full Stack Architect & AI Engineer building intelligent, scalable systems since 2009.",
-    "publisher": {
-      "@id": "https://dinudsi.github.io/#person"
-    },
-    "inLanguage": "en-US"
-  }
-  </script>
+        <!-- 1. WebSite Schema — helps AI engines understand site identity -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "@id": "https://dinudsi.github.io/#website",
+                "url": "https://dinudsi.github.io/",
+                "name": "Dinudsi Portfolio",
+                "description": "Portfolio of Dinudsi — Full Stack Architect & AI-Native Developer building intelligent, scalable systems and custom agent tooling.",
+                "publisher": {
+                    "@id": "https://dinudsi.github.io/#person"
+                },
+                "inLanguage": "en-US"
+            }
+        </script>
 
-  <!-- 2. Person Schema — establishes entity identity for AI knowledge graphs -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://dinudsi.github.io/#person",
-    "name": "Dinudsi",
-    "alternateName": ["dinudsi"],
-    "url": "https://dinudsi.github.io/",
-    "image": "https://avatars.githubusercontent.com/u/dinudsi",
-    "description": "Dinudsi is a Full Stack Architect and AI Engineer based in Udaipur, India. With 12+ years of experience since 2009, he specializes in building intelligent, scalable systems using Spring Boot, Node.js, AI/ML, and cloud-native architectures. His work spans AI-enabled CCTV security systems, RAG-based educational assistants, OAuth2 authorization servers, and BPMN workflow engines.",
-    "jobTitle": "Full Stack Architect & AI Engineer",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Udaipur",
-      "addressRegion": "Rajasthan",
-      "addressCountry": "IN"
-    },
-    "nationality": {
-      "@type": "Country",
-      "name": "India"
-    },
-    "email": "mailto:dpanchal.fullstack@gmail.com",
-    "sameAs": [
-      "https://github.com/dinudsi"
-    ],
-    "knowsAbout": [
-      "Full Stack Development",
-      "Artificial Intelligence",
-      "Machine Learning",
-      "Spring Boot",
-      "Java",
-      "Node.js",
-      "REST API Design",
-      "OAuth2 Authorization",
-      "JWT Authentication",
-      "Microservice Architecture",
-      "System Design",
-      "Computer Vision",
-      "YOLOv5",
-      "OpenCV",
-      "LangChain",
-      "Retrieval-Augmented Generation (RAG)",
-      "Vector Databases",
-      "PostgreSQL",
-      "Docker",
-      "AWS",
-      "DevOps",
-      "CI/CD",
-      "React Native",
-      "BPMN Workflow Engines",
-      "Camunda",
-      "Flowable",
-      "Reverse Proxy Architecture",
-      "Spring Cloud Gateway",
-      "Rust",
-      "Privacy AI",
-      "Local LLMs"
-    ],
-    "hasOccupation": [
-      {
-        "@type": "Occupation",
-        "name": "Full Stack Architect",
-        "occupationalCategory": "15-1252.00",
-        "description": "Designs and builds end-to-end software systems including backend, frontend, APIs, and cloud infrastructure",
-        "skills": "Spring Boot, Node.js, Java, PostgreSQL, Docker, AWS, REST APIs, Microservices, System Design"
-      },
-      {
-        "@type": "Occupation",
-        "name": "AI Engineer",
-        "occupationalCategory": "15-2051.00",
-        "description": "Develops AI and machine learning systems including computer vision, NLP, and RAG-based applications",
-        "skills": "YOLOv5, OpenCV, LangChain, RAG, Vector Databases, SmolVLM, Flask, Python"
-      }
-    ],
-    "worksFor": [
-      {
-        "@type": "Organization",
-        "name": "Skywings LTD"
-      },
-      {
-        "@type": "Organization",
-        "name": "Tune-itcon"
-      }
-    ],
-    "alumniOf": [],
-    "award": [],
-    "makesOffer": {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Full Stack Development & AI Engineering Services",
-        "description": "Custom software development, AI/ML system integration, microservice architecture design, OAuth2 security implementation, and cloud-native application building."
-      }
-    }
-  }
-  </script>
+        <!-- 2. Person Schema — establishes entity identity for AI knowledge graphs -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "@id": "https://dinudsi.github.io/#person",
+                "name": "Dinudsi",
+                "alternateName": ["dinudsi"],
+                "url": "https://dinudsi.github.io/",
+                "image": "https://avatars.githubusercontent.com/u/dinudsi",
+                "description": "Dinudsi is a Full Stack Architect and AI-Native Developer based in Udaipur, India. With 13+ years of experience since 2009, he combines deep expertise in Spring Boot, Node.js, and system architecture with AI-augmented workflows using Claude Code, Codex, and custom MCP servers. His work spans production enterprise systems, security code reviews, and multi-agent orchestration.",
+                "jobTitle": "Full Stack Architect & AI-Native Developer",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Udaipur",
+                    "addressRegion": "Rajasthan",
+                    "addressCountry": "IN"
+                },
+                "nationality": {
+                    "@type": "Country",
+                    "name": "India"
+                },
+                "email": "mailto:dpanchal.fullstack@gmail.com",
+                "sameAs": ["https://github.com/dinudsi"],
+                "knowsAbout": [
+                    "AI-Native Development",
+                    "Agent Orchestration",
+                    "Model Context Protocol (MCP)",
+                    "Claude Code",
+                    "Codex",
+                    "OpenCode",
+                    "Copilot CLI",
+                    "Security Review",
+                    "Multi-Agent Systems",
+                    "PostgreSQL",
+                    "pgvector",
+                    "Node.js",
+                    "Spring Boot",
+                    "OAuth2 Authorization",
+                    "Agent Memory Systems",
+                    "Custom Dev Tools"
+                ],
+                "hasOccupation": [
+                    {
+                        "@type": "Occupation",
+                        "name": "Full Stack Architect",
+                        "occupationalCategory": "15-1252.00",
+                        "description": "Designs and builds end-to-end software systems, APIs, and microservices with a strong focus on security and scalability",
+                        "skills": "Spring Boot, Node.js, PostgreSQL, Docker, AWS, System Design"
+                    },
+                    {
+                        "@type": "Occupation",
+                        "name": "AI-Native Developer",
+                        "occupationalCategory": "15-2051.00",
+                        "description": "Augments development with AI workflows, multi-agent orchestration, and custom MCP servers for rapid delivery",
+                        "skills": "Claude Code, Codex, MCP Servers, Agent Orchestration, Python"
+                    }
+                ],
+                "worksFor": [
+                    {
+                        "@type": "Organization",
+                        "name": "Skywings LTD"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Tune-itcon"
+                    }
+                ],
+                "alumniOf": [],
+                "award": [],
+                "makesOffer": {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "AI-Native Development & Agent Tooling Services",
+                        "description": "Rapid MVP development, custom MCP server building, multi-agent orchestration setup, and security-focused code review."
+                    }
+                }
+            }
+        </script>
 
-  <!-- 3. ProfilePage Schema — tells AI this is a personal portfolio page -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfilePage",
-    "@id": "https://dinudsi.github.io/#profilepage",
-    "url": "https://dinudsi.github.io/",
-    "name": "Dinudsi — Full Stack Architect & AI Engineer Portfolio",
-    "description": "Professional portfolio of Dinudsi showcasing 12+ years of expertise in full stack development, AI engineering, and scalable system architecture.",
-    "mainEntity": {
-      "@id": "https://dinudsi.github.io/#person"
-    },
-    "dateCreated": "2024-01-01",
-    "dateModified": "2026-02-26",
-    "inLanguage": "en-US"
-  }
-  </script>
+        <!-- 3. ProfilePage Schema — tells AI this is a personal portfolio page -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "ProfilePage",
+                "@id": "https://dinudsi.github.io/#profilepage",
+                "url": "https://dinudsi.github.io/",
+                "name": "Dinudsi — Full Stack Architect & AI-Native Developer Portfolio",
+                "description": "Professional portfolio of Dinudsi showcasing 13+ years of expertise in software architecture, scalable systems, and AI-augmented development workflows.",
+                "mainEntity": {
+                    "@id": "https://dinudsi.github.io/#person"
+                },
+                "dateCreated": "2024-01-01",
+                "dateModified": "2026-04-24",
+                "inLanguage": "en-US"
+            }
+        </script>
 
-  <!-- 4. ItemList Schema — featured projects as structured data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "@id": "https://dinudsi.github.io/#projects",
-    "name": "Featured Projects by Dinudsi",
-    "description": "A curated list of notable projects built by Dinudsi, spanning AI/ML, security, workflow automation, and fintech.",
-    "numberOfItems": 6,
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "item": {
-          "@type": "SoftwareApplication",
-          "name": "AI-Enabled CCTV Security System",
-          "description": "Real-time AI system for vehicle plate recognition, violence detection, and threat analysis. Integrated vision-language models (VLM) for contextual live video understanding.",
-          "applicationCategory": "AI / Computer Vision",
-          "operatingSystem": "Linux",
-          "author": { "@id": "https://dinudsi.github.io/#person" },
-          "keywords": ["YOLOv5", "OpenCV", "Flask", "SmolVLM", "Computer Vision", "Security"]
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "item": {
-          "@type": "SoftwareApplication",
-          "name": "RAG-based Educational AI Assistant",
-          "description": "Retrieval-Augmented Generation API providing personalized study responses from PDFs and markdown notes. API-first architecture, ready for mobile integration.",
-          "applicationCategory": "AI / Education",
-          "author": { "@id": "https://dinudsi.github.io/#person" },
-          "keywords": ["Node.js", "PostgreSQL", "Vector DB", "ChatGPT API", "RAG", "LangChain"]
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "item": {
-          "@type": "SoftwareApplication",
-          "name": "OAuth2 Authorization Server",
-          "description": "Production-ready OAuth2 JPA-based authorization server with client registration, token lifecycle management, user approval flows, and role-based authorities.",
-          "applicationCategory": "Security / Authentication",
-          "author": { "@id": "https://dinudsi.github.io/#person" },
-          "keywords": ["Spring Boot 3.2", "OAuth2", "JPA", "JWT", "Spring Security"]
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "item": {
-          "@type": "SoftwareApplication",
-          "name": "Notification Workflow Engine",
-          "description": "BPMN-powered email notification tracking and inter-service event flow engine. Handles complex triggers like payment events across distributed services.",
-          "applicationCategory": "Workflow Automation",
-          "author": { "@id": "https://dinudsi.github.io/#person" },
-          "keywords": ["Camunda", "Flowable", "BPMN", "Spring Boot"]
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "item": {
-          "@type": "SoftwareApplication",
-          "name": "Fintech & Social Media Platforms",
-          "description": "Prototypes for a loan distribution app for the Indian market and a cross-platform social posting system with long-lived OAuth tokens for major platforms.",
-          "applicationCategory": "Fintech / Social Media",
-          "author": { "@id": "https://dinudsi.github.io/#person" },
-          "keywords": ["Full Stack", "OAuth", "Facebook API", "LinkedIn API"]
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 6,
-        "item": {
-          "@type": "SoftwareApplication",
-          "name": "Commitify",
-          "description": "VS Code extension that automatically commits changes every 5 minutes using GitHub Copilot to generate intelligent commit messages.",
-          "applicationCategory": "Developer Tools",
-          "url": "https://github.com/dinudsi/commitify",
-          "author": { "@id": "https://dinudsi.github.io/#person" },
-          "keywords": ["TypeScript", "VS Code Extension", "GitHub Copilot", "Open Source"]
-        }
-      }
-    ]
-  }
-  </script>
+        <!-- 4. ItemList Schema — featured projects as structured data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "ItemList",
+                "@id": "https://dinudsi.github.io/#projects",
+                "name": "Featured Projects by Dinudsi",
+                "description": "A curated list of notable projects built by Dinudsi, spanning AI agent tooling, MCP servers, and multi-agent systems.",
+                "numberOfItems": 7,
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "SoftwareApplication",
+                            "name": "BrainSync",
+                            "description": "Cross-agent memory and context management system enabling AI coding agents to retain knowledge using vector embeddings.",
+                            "applicationCategory": "Developer Tool",
+                            "author": {
+                                "@id": "https://dinudsi.github.io/#person"
+                            },
+                            "keywords": [
+                                "PostgreSQL",
+                                "pgvector",
+                                "OpenAI",
+                                "MCP Server"
+                            ]
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "SoftwareApplication",
+                            "name": "Custom MCP Server Ecosystem",
+                            "description": "Suite of Model Context Protocol servers that extend AI agent capabilities for file operations, analysis, and integrations.",
+                            "applicationCategory": "Infrastructure",
+                            "author": {
+                                "@id": "https://dinudsi.github.io/#person"
+                            },
+                            "keywords": [
+                                "TypeScript",
+                                "MCP Protocol",
+                                "Node.js"
+                            ]
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "SoftwareApplication",
+                            "name": "Multi-Agent Orchestrator",
+                            "description": "Role-based agent management system coordinating specialized agents for code generation, security review, and deployment.",
+                            "applicationCategory": "AI Workflow",
+                            "author": {
+                                "@id": "https://dinudsi.github.io/#person"
+                            },
+                            "keywords": [
+                                "Agent Orchestration",
+                                "Role-based",
+                                "Automation"
+                            ]
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "item": {
+                            "@type": "SoftwareApplication",
+                            "name": "AI-Enabled CCTV Security System",
+                            "description": "Real-time AI system for vehicle plate recognition and threat analysis using YOLOv5 and vision-language models.",
+                            "applicationCategory": "AI / Computer Vision",
+                            "author": {
+                                "@id": "https://dinudsi.github.io/#person"
+                            },
+                            "keywords": ["YOLOv5", "OpenCV", "Flask", "SmolVLM"]
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 5,
+                        "item": {
+                            "@type": "SoftwareApplication",
+                            "name": "OAuth2 Authorization Server",
+                            "description": "Production-ready OAuth2 JPA-based authorization server with client registration and token management.",
+                            "applicationCategory": "Security",
+                            "author": {
+                                "@id": "https://dinudsi.github.io/#person"
+                            },
+                            "keywords": [
+                                "Spring Boot 3.2",
+                                "OAuth2",
+                                "JPA",
+                                "JWT"
+                            ]
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 6,
+                        "item": {
+                            "@type": "SoftwareApplication",
+                            "name": "Commitify",
+                            "description": "VS Code extension that automatically commits changes every 5 minutes using GitHub Copilot to generate commit messages.",
+                            "applicationCategory": "Developer Tool",
+                            "url": "https://github.com/dinudsi/commitify",
+                            "author": {
+                                "@id": "https://dinudsi.github.io/#person"
+                            },
+                            "keywords": [
+                                "TypeScript",
+                                "VS Code Extension",
+                                "GitHub Copilot",
+                                "Open Source"
+                            ]
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 7,
+                        "item": {
+                            "@type": "SoftwareApplication",
+                            "name": "BrainByte",
+                            "description": "A small transformer-based language model built from scratch using PyTorch, trained to generate structured tool-calling responses via next-token prediction.",
+                            "applicationCategory": "AI / Machine Learning",
+                            "author": {
+                                "@id": "https://dinudsi.github.io/#person"
+                            },
+                            "keywords": [
+                                "Python",
+                                "PyTorch",
+                                "Transformer",
+                                "Language Model",
+                                "From Scratch"
+                            ]
+                        }
+                    }
+                ]
+            }
+        </script>
 
-  <!-- 5. FAQPage Schema — optimized for AI search Q&A extraction -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "@id": "https://dinudsi.github.io/#faq",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Who is Dinudsi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Dinudsi is a Full Stack Architect and AI Engineer based in Udaipur, India. With over 12 years of experience since 2009, he specializes in building intelligent, scalable systems using Spring Boot, Node.js, AI/ML, and cloud-native architectures. He has worked with companies like Skywings LTD and Tune-itcon."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What technologies does Dinudsi specialize in?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Dinudsi specializes in: Backend (Spring Boot 3.x, Java, Node.js, REST APIs, Reactive Systems), AI/ML (OpenCV, YOLOv5, Flask, SmolVLM, LangChain, RAG), Auth & Security (OAuth2, JWT, Spring Security), Data & Storage (PostgreSQL, Solr, FAISS, Qdrant, Milvus), Frontend/Mobile (React Native, Ionic), DevOps (AWS, Docker, CI/CD, Reverse Proxies), Workflow (Camunda 7, Flowable BPMN), and Automation (Puppeteer, Postman)."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What notable projects has Dinudsi built?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Dinudsi's notable projects include: (1) AI-Enabled CCTV Security System — real-time vehicle plate recognition and threat analysis using YOLOv5 and vision-language models, (2) RAG-based Educational AI Assistant — personalized study responses from PDFs using Vector DB and ChatGPT API, (3) OAuth2 Authorization Server — production-ready JPA-based auth server with Spring Boot 3.2, (4) Notification Workflow Engine — BPMN-powered event flow engine using Camunda and Flowable, (5) Fintech & Social Media Platforms, and (6) Commitify — an open-source VS Code extension for AI-powered auto-commits."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How can I contact Dinudsi for collaboration?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "You can contact Dinudsi via email at dpanchal.fullstack@gmail.com or through GitHub at github.com/dinudsi. He is currently available for collaborations and new opportunities."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Where is Dinudsi located?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Dinudsi is based in Udaipur, Rajasthan, India. He works with companies and clients globally."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is Dinudsi's engineering philosophy?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Dinudsi's engineering philosophy is: 'Build systems that are simple at the surface, powerful at the core, and scalable for the future.' His core principles are: Architecture First (clarity before code), Automate Everything (efficiency through workflows), AI by Design (intelligence at every level), and Learn Relentlessly (currently exploring LLMs, Rust, and privacy AI)."
-        }
-      }
-    ]
-  }
-  </script>
+        <!-- 5. FAQPage Schema — optimized for AI search Q&A extraction -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "@id": "https://dinudsi.github.io/#faq",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Who is Dinudsi?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Dinudsi is an AI-Native Developer and Agent Architect based in Udaipur, India. With over 13 years of experience since 2009, he specializes in building, orchestrating, and shipping software rapidly using AI coding agents."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What AI tools does Dinudsi use?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Dinudsi uses Claude Code, Codex, OpenCode, and Copilot CLI as his primary development environment. He also builds custom MCP servers, agent plugins, and internal tools like BrainSync."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What notable AI agent projects has Dinudsi built?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Dinudsi has built BrainSync (cross-agent memory management), a custom MCP Server ecosystem, multi-agent orchestrators for automated development workflows, and Commitify (an AI auto-commit VS Code extension)."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How can I contact Dinudsi for collaboration?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "You can contact Dinudsi via email at dpanchal.fullstack@gmail.com or through GitHub at github.com/dinudsi. He is currently available for AI-native development projects and collaborations."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Where is Dinudsi located?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Dinudsi is based in Udaipur, Rajasthan, India. He works with companies and clients globally."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What is Dinudsi's development philosophy?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "His philosophy is: 'I don't just write code — I orchestrate AI systems that write, review, and ship code.' He focuses on agent-first workflows, security by default, and rapid MVP delivery."
+                        }
+                    }
+                ]
+            }
+        </script>
 
-  <!-- 6. BreadcrumbList Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://dinudsi.github.io/"
-      }
-    ]
-  }
-  </script>
+        <!-- 6. BreadcrumbList Schema -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://dinudsi.github.io/"
+                    }
+                ]
+            }
+        </script>
 
-  <!-- ============================================
+        <!-- ============================================
        GOOGLE ANALYTICS
        ============================================ -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-109QGGZWKW"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-109QGGZWKW');
-  </script>
-</head>
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-109QGGZWKW"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "G-109QGGZWKW");
+        </script>
+    </head>
 
-<body>
-  <!-- Animated background -->
-  <canvas id="particles" aria-hidden="true"></canvas>
-  <div class="gradient-orbs" aria-hidden="true">
-    <div class="orb orb-1"></div>
-    <div class="orb orb-2"></div>
-    <div class="orb orb-3"></div>
-  </div>
+    <body>
+        <!-- Animated background -->
+        <canvas id="particles" aria-hidden="true"></canvas>
+        <div class="gradient-orbs" aria-hidden="true">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+        </div>
 
-  <!-- ============================================
+        <!-- ============================================
        NAVIGATION — Semantic <header> + <nav>
        ============================================ -->
-  <header role="banner">
-    <nav class="nav" id="nav" aria-label="Primary navigation">
-      <div class="nav-inner">
-        <a href="#hero" class="nav-logo" aria-label="Dinudsi — Home">
-          <span class="logo-bracket">&lt;</span>dinudsi<span class="logo-bracket"> /&gt;</span>
-        </a>
-        <div class="nav-links" id="navLinks" role="menubar">
-          <a href="#about" class="nav-link" role="menuitem">About</a>
-          <a href="#stack" class="nav-link" role="menuitem">Stack</a>
-          <a href="#projects" class="nav-link" role="menuitem">Projects</a>
-          <a href="#experience" class="nav-link" role="menuitem">Experience</a>
-          <a href="#contact" class="nav-link" role="menuitem">Contact</a>
-        </div>
-        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false"
-          aria-controls="navLinks">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </nav>
-  </header>
+        <header role="banner">
+            <nav class="nav" id="nav" aria-label="Primary navigation">
+                <div class="nav-inner">
+                    <a
+                        href="#hero"
+                        class="nav-logo"
+                        aria-label="Dinudsi — Home"
+                    >
+                        <span class="logo-bracket">&lt;</span>dinudsi<span
+                            class="logo-bracket"
+                        >
+                            /&gt;</span
+                        >
+                    </a>
+                    <div class="nav-links" id="navLinks" role="menubar">
+                        <a href="#about" class="nav-link" role="menuitem"
+                            >About</a
+                        >
+                        <a href="#stack" class="nav-link" role="menuitem"
+                            >Stack</a
+                        >
+                        <a href="#projects" class="nav-link" role="menuitem"
+                            >Projects</a
+                        >
+                        <a href="#experience" class="nav-link" role="menuitem"
+                            >Experience</a
+                        >
+                        <a href="#contact" class="nav-link" role="menuitem"
+                            >Contact</a
+                        >
+                    </div>
+                    <button
+                        class="nav-toggle"
+                        id="navToggle"
+                        aria-label="Toggle navigation menu"
+                        aria-expanded="false"
+                        aria-controls="navLinks"
+                    >
+                        <span></span><span></span><span></span>
+                    </button>
+                </div>
+            </nav>
+        </header>
 
-  <!-- ============================================
+        <!-- ============================================
        MAIN CONTENT
        ============================================ -->
-  <main id="main-content" role="main">
-
-    <!-- ============================================
+        <main id="main-content" role="main">
+            <!-- ============================================
          HERO SECTION
          ============================================ -->
-    <section class="hero" id="hero" aria-labelledby="hero-heading">
-      <div class="hero-content">
-        <div class="hero-badge fade-in" role="status">
-          <span class="badge-dot" aria-hidden="true"></span>
-          Available for collaborations
-        </div>
-        <h1 class="hero-title fade-in" id="hero-heading">
-          <span class="hero-greeting">Hi, I'm</span>
-          <span class="hero-name">
-            <span class="gradient-text">Dinudsi</span>
-          </span>
-        </h1>
-        <div class="hero-roles fade-in" aria-label="Professional roles">
-          <span class="typing-text" id="typingText" aria-live="polite"></span>
-          <span class="cursor" aria-hidden="true">|</span>
-        </div>
-        <!-- GEO: Clear, quotable tagline that AI can extract -->
-        <p class="hero-tagline fade-in">
-          From scripts to startups — since 2009<br />
-          <strong>I build what others imagine.</strong>
-        </p>
-        <div class="hero-stats fade-in" role="group" aria-label="Key statistics">
-          <div class="stat">
-            <span class="stat-number" data-count="12" aria-label="12+ years of experience">12</span><span
-              class="stat-plus">+</span>
-            <span class="stat-label">Years Experience</span>
-          </div>
-          <div class="stat-divider" aria-hidden="true"></div>
-          <div class="stat">
-            <span class="stat-number" data-count="29" aria-label="29+ repositories">30</span><span
-              class="stat-plus">+</span>
-            <span class="stat-label">Repositories</span>
-          </div>
-          <div class="stat-divider" aria-hidden="true"></div>
-          <div class="stat">
-            <span class="stat-number" data-count="414" aria-label="421+ followers">421</span><span
-              class="stat-plus">+</span>
-            <span class="stat-label">Followers</span>
-          </div>
-        </div>
-        <div class="hero-cta fade-in">
-          <a href="#projects" class="btn btn-primary" id="cta-view-work">
-            <span>View My Work</span>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-              aria-hidden="true">
-              <path d="M7 17L17 7M17 7H7M17 7V17" />
-            </svg>
-          </a>
-          <a href="#contact" class="btn btn-secondary" id="cta-contact">
-            <span>Get in Touch</span>
-          </a>
-        </div>
-      </div>
-      <div class="hero-visual fade-in" aria-hidden="true">
-        <div class="code-window">
-          <div class="code-header">
-            <div class="code-dots">
-              <span class="dot red"></span>
-              <span class="dot yellow"></span>
-              <span class="dot green"></span>
-            </div>
-            <span class="code-title">dinudsi.config.ts</span>
-          </div>
-          <pre class="code-body"><code><span class="code-keyword">const</span> <span class="code-var">developer</span> = {
+            <section class="hero" id="hero" aria-labelledby="hero-heading">
+                <div class="hero-content">
+                    <div class="hero-badge fade-in" role="status">
+                        <span class="badge-dot" aria-hidden="true"></span>
+                        Building with AI Agents
+                    </div>
+                    <h1 class="hero-title fade-in" id="hero-heading">
+                        <span class="hero-greeting">Hi, I'm</span>
+                        <span class="hero-name">
+                            <span class="gradient-text">Dinudsi</span>
+                        </span>
+                    </h1>
+                    <div
+                        class="hero-roles fade-in"
+                        aria-label="Professional roles"
+                    >
+                        <span
+                            class="typing-text"
+                            id="typingText"
+                            aria-live="polite"
+                        ></span>
+                        <span class="cursor" aria-hidden="true">|</span>
+                    </div>
+                    <!-- GEO: Clear, quotable tagline that AI can extract -->
+                    <p class="hero-tagline fade-in">
+                        I don't just write code — I build robust, scalable
+                        architectures and orchestrate AI to ship 10x faster.<br />
+                        <strong
+                            >Combining deep engineering with modern agent
+                            workflows.</strong
+                        >
+                    </p>
+                    <div
+                        class="hero-stats fade-in"
+                        role="group"
+                        aria-label="Key statistics"
+                    >
+                        <div class="stat">
+                            <span
+                                class="stat-number"
+                                data-count="13"
+                                aria-label="13+ years building software"
+                                >13</span
+                            ><span class="stat-plus">+</span>
+                            <span class="stat-label">Years Building</span>
+                        </div>
+                        <div class="stat-divider" aria-hidden="true"></div>
+                        <div class="stat">
+                            <span
+                                class="stat-number"
+                                data-count="34"
+                                aria-label="34+ repositories"
+                                >34</span
+                            ><span class="stat-plus">+</span>
+                            <span class="stat-label">Repositories</span>
+                        </div>
+                        <div class="stat-divider" aria-hidden="true"></div>
+                        <div class="stat">
+                            <span
+                                class="stat-number"
+                                data-count="492"
+                                aria-label="492+ followers"
+                                >492</span
+                            ><span class="stat-plus">+</span>
+                            <span class="stat-label">Followers</span>
+                        </div>
+                    </div>
+                    <div class="hero-cta fade-in">
+                        <a
+                            href="#projects"
+                            class="btn btn-primary"
+                            id="cta-view-work"
+                        >
+                            <span>View My Work</span>
+                            <svg
+                                width="20"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                aria-hidden="true"
+                            >
+                                <path d="M7 17L17 7M17 7H7M17 7V17" />
+                            </svg>
+                        </a>
+                        <a
+                            href="https://wa.me/917014478122?text=Hi%20Dinudsi,%20I'm%20interested%20in%20discussing%20an%20MVP."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-secondary"
+                            style="border-color: #25d366; color: #25d366"
+                            id="cta-whatsapp"
+                        >
+                            <svg
+                                width="20"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                                />
+                            </svg>
+                            <span>MVP Chat on WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual fade-in" aria-hidden="true">
+                    <div class="code-window">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="code-title">agent.config.ts</span>
+                        </div>
+                        <pre
+                            class="code-body"
+                        ><code><span class="code-keyword">const</span> <span class="code-var">agent</span> = {
   <span class="code-prop">name</span>: <span class="code-string">"Dinudsi"</span>,
-  <span class="code-prop">role</span>: <span class="code-string">"Full Stack Architect"</span>,
-  <span class="code-prop">location</span>: <span class="code-string">"Udaipur, India 🇮🇳"</span>,
-  <span class="code-prop">passions</span>: [
-    <span class="code-string">"AI/ML"</span>,
-    <span class="code-string">"System Design"</span>,
-    <span class="code-string">"Product Strategy"</span>,
+  <span class="code-prop">role</span>: <span class="code-string">"AI-Native Developer"</span>,
+  <span class="code-prop">toolkit</span>: [
+    <span class="code-string">"Claude Code"</span>,
+    <span class="code-string">"Codex"</span>,
+    <span class="code-string">"OpenCode"</span>,
+    <span class="code-string">"Copilot CLI"</span>,
   ],
-  <span class="code-prop">philosophy</span>: <span class="code-string">"Simple surface,
-    powerful core."</span>,
-  <span class="code-method">build</span>() {
-    <span class="code-keyword">return</span> <span class="code-string">"something amazing"</span>;
+  <span class="code-method">orchestrate</span>() {
+    <span class="code-keyword">return</span> <span class="code-string">"ship fast, ship secure"</span>;
   }
 };</code></pre>
-        </div>
-      </div>
-      <a href="#about" class="scroll-indicator" aria-label="Scroll down to about section">
-        <div class="scroll-mouse">
-          <div class="scroll-wheel"></div>
-        </div>
-      </a>
-    </section>
+                    </div>
+                </div>
+                <a
+                    href="#about"
+                    class="scroll-indicator"
+                    aria-label="Scroll down to about section"
+                >
+                    <div class="scroll-mouse">
+                        <div class="scroll-wheel"></div>
+                    </div>
+                </a>
+            </section>
 
-    <!-- ============================================
+            <!-- ============================================
          ABOUT SECTION
          GEO: Written in natural language paragraphs
          that AI engines can directly quote and cite
          ============================================ -->
-    <section class="section" id="about" aria-labelledby="about-heading">
-      <div class="container">
-        <div class="section-header fade-in">
-          <span class="section-tag">01 — About</span>
-          <h2 class="section-title" id="about-heading">Crafting <span class="gradient-text">Intelligent Systems</span>
-          </h2>
-        </div>
-        <div class="about-grid">
-          <div class="about-text fade-in">
-            <!-- GEO: Clear, comprehensive self-description written as quotable natural language -->
-            <p class="about-lead">
-              I'm a hands-on architect and product strategist passionate about building <strong>intelligent, scalable,
-                and
-                modular systems</strong>.
-            </p>
-            <p>
-              With deep expertise across <strong>Spring Boot, Node.js, and AI-based architectures</strong>,
-              I bridge the gap between product vision and engineering execution. From real-time AI video analysis
-              to OAuth2 authorization servers, I design systems that solve real problems.
-            </p>
-            <!-- GEO: Entity-defining summary paragraph for AI extraction -->
-            <p>
-              <strong>Dinudsi</strong> has been building software since 2009. Based in
-              <strong>Udaipur, India</strong>, he has worked with companies including <strong>Skywings LTD</strong> and
-              <strong>Tune-itcon</strong>,
-              delivering production systems across <strong>AI/ML, full stack development, DevOps, and enterprise
-                security</strong>.
-              He is currently exploring <strong>Rust, local LLMs, and privacy-preserving AI</strong>.
-            </p>
-          </div>
-          <aside class="about-info fade-in">
-            <div class="info-card glass-card">
-              <h3>Quick Info</h3>
-              <ul class="info-list">
-                <li>
-                  <span class="info-icon" aria-hidden="true">📍</span>
-                  <div><strong>Location</strong><br />Udaipur, India</div>
-                </li>
-                <li>
-                  <span class="info-icon" aria-hidden="true">🏢</span>
-                  <div><strong>Companies</strong><br />Skywings LTD · Tune-itcon</div>
-                </li>
-                <li>
-                  <span class="info-icon" aria-hidden="true">🎯</span>
-                  <div><strong>Focus</strong><br />AI/ML · Full Stack · DevOps</div>
-                </li>
-                <li>
-                  <span class="info-icon" aria-hidden="true">🦀</span>
-                  <div><strong>Currently Learning</strong><br />Rust · Local LLMs · Privacy AI</div>
-                </li>
-              </ul>
-            </div>
-          </aside>
-        </div>
-      </div>
-    </section>
+            <section class="section" id="about" aria-labelledby="about-heading">
+                <div class="container">
+                    <div class="section-header fade-in">
+                        <span class="section-tag">01 — About</span>
+                        <h2 class="section-title" id="about-heading">
+                            AI-Native
+                            <span class="gradient-text">By Design</span>
+                        </h2>
+                    </div>
+                    <div class="about-grid">
+                        <div class="about-text fade-in">
+                            <!-- GEO: Clear, comprehensive self-description written as quotable natural language -->
+                            <p class="about-lead">
+                                I'm Dinudsi, a
+                                <strong>Full Stack Architect</strong> based in
+                                Udaipur, India. Since 2009, I've been building
+                                enterprise-grade backend systems, secure APIs,
+                                and scalable architectures. Today, I augment
+                                that deep technical foundation with AI-native
+                                workflows to help startups and companies get
+                                their
+                                <strong
+                                    >MVPs done in days rather than months, with
+                                    an 80% cost reduction</strong
+                                >.
+                            </p>
+                            <p>
+                                As an engineer first, I rely on tools like
+                                <strong
+                                    >Spring Boot, Node.js, and
+                                    PostgreSQL</strong
+                                >
+                                to build the core, while leveraging
+                                <strong
+                                    >Claude Code, Codex, and Copilot CLI</strong
+                                >
+                                to accelerate execution.
+                            </p>
+                            <!-- GEO: Entity-defining summary paragraph for AI extraction -->
+                            <p>
+                                <strong>Dinudsi</strong> combines 13+ years of
+                                traditional software architecture with modern
+                                multi-agent orchestration. He builds open-source
+                                plugins, <strong>custom MCP servers</strong>,
+                                and internal dev tools like BrainSync to push
+                                the boundaries of what a single developer can
+                                achieve. His focus remains on
+                                <strong>security-first code review</strong>,
+                                clean architecture, and shipping production
+                                software rapidly.
+                            </p>
+                        </div>
+                        <aside class="about-info fade-in">
+                            <div class="info-card glass-card">
+                                <h3>Quick Info</h3>
+                                <ul class="info-list">
+                                    <li>
+                                        <span
+                                            class="info-icon"
+                                            aria-hidden="true"
+                                            >🤖</span
+                                        >
+                                        <div>
+                                            <strong>AI Agents</strong
+                                            ><br />Claude Code · Codex ·
+                                            OpenCode · Copilot CLI
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span
+                                            class="info-icon"
+                                            aria-hidden="true"
+                                            >🔌</span
+                                        >
+                                        <div>
+                                            <strong>Builds</strong><br />MCP
+                                            Servers · Agent Plugins · Dev Tools
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span
+                                            class="info-icon"
+                                            aria-hidden="true"
+                                            >🔒</span
+                                        >
+                                        <div>
+                                            <strong>Focus</strong><br />Security
+                                            Review · Code Audits · Rapid MVPs
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span
+                                            class="info-icon"
+                                            aria-hidden="true"
+                                            >🧠</span
+                                        >
+                                        <div>
+                                            <strong>Custom Tools</strong
+                                            ><br />BrainSync · BrainByte ·
+                                            Memory Systems · Custom MCPs
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </section>
 
-    <!-- ============================================
+            <!-- ============================================
          TECH STACK SECTION
          GEO: Descriptive technology listing
          ============================================ -->
-    <section class="section section-dark" id="stack" aria-labelledby="stack-heading">
-      <div class="container">
-        <div class="section-header fade-in">
-          <span class="section-tag">02 — Tech Stack</span>
-          <h2 class="section-title" id="stack-heading">Tools of the <span class="gradient-text">Trade</span></h2>
-          <!-- GEO: Summary paragraph for AI to extract -->
-          <p class="section-subtitle">
-            Dinudsi's technology stack spans backend systems, AI/ML pipelines, authentication frameworks, cloud
-            infrastructure, and mobile development — chosen for building production-grade, intelligent applications.
-          </p>
-        </div>
-        <div class="stack-grid fade-in" role="list" aria-label="Technology categories">
-          <div class="stack-category glass-card" role="listitem">
-            <div class="stack-icon-wrap"><span class="stack-emoji" aria-hidden="true">🔧</span></div>
-            <h3>Backend</h3>
-            <div class="stack-tags">
-              <span class="tag">Spring Boot 3.x</span>
-              <span class="tag">Java</span>
-              <span class="tag">Node.js</span>
-              <span class="tag">REST APIs</span>
-              <span class="tag">Reactive Systems</span>
-            </div>
-          </div>
-          <div class="stack-category glass-card" role="listitem">
-            <div class="stack-icon-wrap"><span class="stack-emoji" aria-hidden="true">🤖</span></div>
-            <h3>AI / ML</h3>
-            <div class="stack-tags">
-              <span class="tag">OpenCV</span>
-              <span class="tag">YOLOv5</span>
-              <span class="tag">Flask</span>
-              <span class="tag">SmolVLM</span>
-              <span class="tag">LangChain</span>
-              <span class="tag">RAG</span>
-            </div>
-          </div>
-          <div class="stack-category glass-card" role="listitem">
-            <div class="stack-icon-wrap"><span class="stack-emoji" aria-hidden="true">🔒</span></div>
-            <h3>Auth & Security</h3>
-            <div class="stack-tags">
-              <span class="tag">OAuth2</span>
-              <span class="tag">JWT</span>
-              <span class="tag">Spring Security</span>
-              <span class="tag">JPA Token Stores</span>
-            </div>
-          </div>
-          <div class="stack-category glass-card" role="listitem">
-            <div class="stack-icon-wrap"><span class="stack-emoji" aria-hidden="true">🗄️</span></div>
-            <h3>Data & Storage</h3>
-            <div class="stack-tags">
-              <span class="tag">PostgreSQL</span>
-              <span class="tag">Solr</span>
-              <span class="tag">FAISS</span>
-              <span class="tag">Qdrant</span>
-              <span class="tag">Milvus</span>
-            </div>
-          </div>
-          <div class="stack-category glass-card" role="listitem">
-            <div class="stack-icon-wrap"><span class="stack-emoji" aria-hidden="true">📱</span></div>
-            <h3>Frontend / Mobile</h3>
-            <div class="stack-tags">
-              <span class="tag">React Native</span>
-              <span class="tag">Ionic</span>
-            </div>
-          </div>
-          <div class="stack-category glass-card" role="listitem">
-            <div class="stack-icon-wrap"><span class="stack-emoji" aria-hidden="true">☁️</span></div>
-            <h3>DevOps & Cloud</h3>
-            <div class="stack-tags">
-              <span class="tag">AWS</span>
-              <span class="tag">Docker</span>
-              <span class="tag">Reverse Proxies</span>
-              <span class="tag">CI/CD</span>
-            </div>
-          </div>
-          <div class="stack-category glass-card" role="listitem">
-            <div class="stack-icon-wrap"><span class="stack-emoji" aria-hidden="true">⚡</span></div>
-            <h3>Workflow</h3>
-            <div class="stack-tags">
-              <span class="tag">Camunda 7</span>
-              <span class="tag">Flowable BPMN</span>
-            </div>
-          </div>
-          <div class="stack-category glass-card" role="listitem">
-            <div class="stack-icon-wrap"><span class="stack-emoji" aria-hidden="true">🛠️</span></div>
-            <h3>Automation</h3>
-            <div class="stack-tags">
-              <span class="tag">Puppeteer</span>
-              <span class="tag">Postman</span>
-              <span class="tag">API Testing</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+            <section
+                class="section section-dark"
+                id="stack"
+                aria-labelledby="stack-heading"
+            >
+                <div class="container">
+                    <div class="section-header fade-in">
+                        <span class="section-tag">02 — AI Toolkit</span>
+                        <h2 class="section-title" id="stack-heading">
+                            Agent-First <span class="gradient-text">Stack</span>
+                        </h2>
+                        <p class="section-subtitle">
+                            Dinudsi's toolkit is built around AI coding agents,
+                            custom MCP servers, agent orchestration, and
+                            security-first code review — designed for shipping
+                            production MVPs at unprecedented speed.
+                        </p>
+                    </div>
+                    <div
+                        class="stack-grid fade-in"
+                        role="list"
+                        aria-label="Technology categories"
+                    >
+                        <div class="stack-category glass-card" role="listitem">
+                            <div class="stack-icon-wrap">
+                                <span class="stack-emoji" aria-hidden="true"
+                                    >🤖</span
+                                >
+                            </div>
+                            <h3>AI Coding Agents</h3>
+                            <div class="stack-tags">
+                                <span class="tag">Claude Code</span>
+                                <span class="tag">Codex</span>
+                                <span class="tag">OpenCode</span>
+                                <span class="tag">Copilot CLI</span>
+                                <span class="tag">Cursor</span>
+                            </div>
+                        </div>
+                        <div class="stack-category glass-card" role="listitem">
+                            <div class="stack-icon-wrap">
+                                <span class="stack-emoji" aria-hidden="true"
+                                    >🧠</span
+                                >
+                            </div>
+                            <h3>Agent Infrastructure</h3>
+                            <div class="stack-tags">
+                                <span class="tag">MCP Servers</span>
+                                <span class="tag">Role-based Agents</span>
+                                <span class="tag">Orchestrators</span>
+                                <span class="tag">Agent Skills</span>
+                            </div>
+                        </div>
+                        <div class="stack-category glass-card" role="listitem">
+                            <div class="stack-icon-wrap">
+                                <span class="stack-emoji" aria-hidden="true"
+                                    >🔒</span
+                                >
+                            </div>
+                            <h3>Security & Review</h3>
+                            <div class="stack-tags">
+                                <span class="tag">OAuth2</span>
+                                <span class="tag">JWT</span>
+                                <span class="tag">Code Audits</span>
+                                <span class="tag">SAST</span>
+                                <span class="tag">Threat Modeling</span>
+                            </div>
+                        </div>
+                        <div class="stack-category glass-card" role="listitem">
+                            <div class="stack-icon-wrap">
+                                <span class="stack-emoji" aria-hidden="true"
+                                    >🛠️</span
+                                >
+                            </div>
+                            <h3>Custom Dev Tools</h3>
+                            <div class="stack-tags">
+                                <span class="tag">BrainSync</span>
+                                <span class="tag">Memory Systems</span>
+                                <span class="tag">Context Mgmt</span>
+                                <span class="tag">Custom MCPs</span>
+                            </div>
+                        </div>
+                        <div class="stack-category glass-card" role="listitem">
+                            <div class="stack-icon-wrap">
+                                <span class="stack-emoji" aria-hidden="true"
+                                    >🔧</span
+                                >
+                            </div>
+                            <h3>Backend</h3>
+                            <div class="stack-tags">
+                                <span class="tag">Spring Boot 3.x</span>
+                                <span class="tag">Java</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">REST APIs</span>
+                            </div>
+                        </div>
+                        <div class="stack-category glass-card" role="listitem">
+                            <div class="stack-icon-wrap">
+                                <span class="stack-emoji" aria-hidden="true"
+                                    >🗄️</span
+                                >
+                            </div>
+                            <h3>Data & AI</h3>
+                            <div class="stack-tags">
+                                <span class="tag">PostgreSQL</span>
+                                <span class="tag">pgvector</span>
+                                <span class="tag">FAISS</span>
+                                <span class="tag">RAG</span>
+                                <span class="tag">LangChain</span>
+                                <span class="tag">PyTorch</span>
+                                <span class="tag">Transformers</span>
+                                <span class="tag">LLMs</span>
+                            </div>
+                        </div>
+                        <div class="stack-category glass-card" role="listitem">
+                            <div class="stack-icon-wrap">
+                                <span class="stack-emoji" aria-hidden="true"
+                                    >☁️</span
+                                >
+                            </div>
+                            <h3>DevOps & Cloud</h3>
+                            <div class="stack-tags">
+                                <span class="tag">AWS</span>
+                                <span class="tag">Docker</span>
+                                <span class="tag">CI/CD</span>
+                                <span class="tag">Reverse Proxies</span>
+                            </div>
+                        </div>
+                        <div class="stack-category glass-card" role="listitem">
+                            <div class="stack-icon-wrap">
+                                <span class="stack-emoji" aria-hidden="true"
+                                    >⚡</span
+                                >
+                            </div>
+                            <h3>Open Source</h3>
+                            <div class="stack-tags">
+                                <span class="tag">VS Code Extensions</span>
+                                <span class="tag">Agent Plugins</span>
+                                <span class="tag">CLI Tools</span>
+                                <span class="tag">npm Packages</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <!-- ============================================
+            <!-- ============================================
          PROJECTS SECTION
          GEO: Each project has rich, descriptive text
          ============================================ -->
-    <section class="section" id="projects" aria-labelledby="projects-heading">
-      <div class="container">
-        <div class="section-header fade-in">
-          <span class="section-tag">03 — Projects</span>
-          <h2 class="section-title" id="projects-heading">Featured <span class="gradient-text">Work</span></h2>
-          <p class="section-subtitle">
-            A selection of production-grade systems and open-source tools built by Dinudsi, spanning AI-powered
-            security, educational AI, enterprise authentication, workflow engines, and developer tooling.
-          </p>
-        </div>
-        <div class="projects-grid">
-          <!-- Project 1 -->
-          <article class="project-card glass-card fade-in" aria-labelledby="project-cctv">
-            <div class="project-accent accent-ai"></div>
-            <div class="project-header">
-              <span class="project-icon" aria-hidden="true">🎯</span>
-              <div class="project-links">
-                <span class="project-badge">AI / Vision</span>
-              </div>
-            </div>
-            <h3 id="project-cctv">AI-Enabled CCTV Security System</h3>
-            <p>Real-time AI system for vehicle plate recognition, violence detection, and threat analysis. Integrated
-              vision-language models (VLM) for contextual live video understanding.</p>
-            <div class="project-tags" aria-label="Technologies used">
-              <span class="tag">YOLOv5</span>
-              <span class="tag">OpenCV</span>
-              <span class="tag">Flask</span>
-              <span class="tag">SmolVLM</span>
-            </div>
-          </article>
+            <section
+                class="section"
+                id="projects"
+                aria-labelledby="projects-heading"
+            >
+                <div class="container">
+                    <div class="section-header fade-in">
+                        <span class="section-tag">03 — Projects</span>
+                        <h2 class="section-title" id="projects-heading">
+                            Featured <span class="gradient-text">Work</span>
+                        </h2>
+                        <p class="section-subtitle">
+                            AI agent tools, custom MCP servers, open-source
+                            plugins, and production systems — built by Dinudsi
+                            to push the boundaries of AI-native development.
+                        </p>
+                    </div>
+                    <div class="projects-grid">
+                        <!-- Project 7 - BrainByte -->
+                        <article
+                            class="project-card glass-card fade-in"
+                            aria-labelledby="project-brainbyte"
+                        >
+                            <div class="project-accent accent-ai"></div>
+                            <div class="project-header">
+                                <span class="project-icon" aria-hidden="true"
+                                    >🧠</span
+                                >
+                                <div class="project-links">
+                                    <span class="project-badge"
+                                        >AI / Machine Learning</span
+                                    >
+                                </div>
+                            </div>
+                            <h3 id="project-brainbyte">BrainByte</h3>
+                            <p>
+                                A small transformer-based language model built
+                                from scratch using PyTorch. Trained to generate
+                                structured tool-calling responses via next-token
+                                prediction — demonstrating core ML engineering
+                                skills.
+                            </p>
+                            <div
+                                class="project-tags"
+                                aria-label="Technologies used"
+                            >
+                                <span class="tag">Python</span>
+                                <span class="tag">PyTorch</span>
+                                <span class="tag">Transformer</span>
+                                <span class="tag">Language Model</span>
+                            </div>
+                        </article>
+                        <!-- Project 1 - BrainSync -->
+                        <article
+                            class="project-card glass-card fade-in"
+                            aria-labelledby="project-brainsync"
+                        >
+                            <div class="project-accent accent-ai"></div>
+                            <div class="project-header">
+                                <span class="project-icon" aria-hidden="true"
+                                    >🧠</span
+                                >
+                                <div class="project-links">
+                                    <span class="project-badge"
+                                        >Agent Tooling</span
+                                    >
+                                </div>
+                            </div>
+                            <h3 id="project-brainsync">BrainSync</h3>
+                            <p>
+                                Cross-agent memory and context management
+                                system. Enables AI coding agents to retain
+                                knowledge, share context across sessions, and
+                                build persistent memory using vector embeddings.
+                            </p>
+                            <div
+                                class="project-tags"
+                                aria-label="Technologies used"
+                            >
+                                <span class="tag">PostgreSQL</span>
+                                <span class="tag">pgvector</span>
+                                <span class="tag">OpenAI</span>
+                                <span class="tag">MCP Server</span>
+                            </div>
+                        </article>
 
-          <!-- Project 2 -->
-          <article class="project-card glass-card fade-in" aria-labelledby="project-rag">
-            <div class="project-accent accent-rag"></div>
-            <div class="project-header">
-              <span class="project-icon" aria-hidden="true">📚</span>
-              <div class="project-links">
-                <span class="project-badge">AI / RAG</span>
-              </div>
-            </div>
-            <h3 id="project-rag">RAG-based Educational AI Assistant</h3>
-            <p>Retrieval-Augmented Generation API providing personalized study responses from PDFs and markdown notes.
-              API-first architecture, ready for mobile integration.</p>
-            <div class="project-tags" aria-label="Technologies used">
-              <span class="tag">Node.js</span>
-              <span class="tag">PostgreSQL</span>
-              <span class="tag">Vector DB</span>
-              <span class="tag">ChatGPT API</span>
-            </div>
-          </article>
+                        <!-- Project 2 - Custom MCP Ecosystem -->
+                        <article
+                            class="project-card glass-card fade-in"
+                            aria-labelledby="project-mcp"
+                        >
+                            <div class="project-accent accent-rag"></div>
+                            <div class="project-header">
+                                <span class="project-icon" aria-hidden="true"
+                                    >🔌</span
+                                >
+                                <div class="project-links">
+                                    <span class="project-badge"
+                                        >Infrastructure</span
+                                    >
+                                </div>
+                            </div>
+                            <h3 id="project-mcp">
+                                Custom MCP Server Ecosystem
+                            </h3>
+                            <p>
+                                Suite of Model Context Protocol servers that
+                                extend AI agent capabilities — from file
+                                operations and code analysis to custom tool
+                                integrations and workflow automation.
+                            </p>
+                            <div
+                                class="project-tags"
+                                aria-label="Technologies used"
+                            >
+                                <span class="tag">TypeScript</span>
+                                <span class="tag">MCP Protocol</span>
+                                <span class="tag">Tool Building</span>
+                                <span class="tag">Node.js</span>
+                            </div>
+                        </article>
 
-          <!-- Project 3 -->
-          <article class="project-card glass-card fade-in" aria-labelledby="project-oauth">
-            <div class="project-accent accent-auth"></div>
-            <div class="project-header">
-              <span class="project-icon" aria-hidden="true">🔐</span>
-              <div class="project-links">
-                <span class="project-badge">Security</span>
-              </div>
-            </div>
-            <h3 id="project-oauth">OAuth2 Authorization Server</h3>
-            <p>Production-ready OAuth2 JPA-based authorization server with client registration, token lifecycle
-              management, user approval flows, and role-based authorities.</p>
-            <div class="project-tags" aria-label="Technologies used">
-              <span class="tag">Spring Boot 3.2</span>
-              <span class="tag">OAuth2</span>
-              <span class="tag">JPA</span>
-              <span class="tag">JWT</span>
-            </div>
-          </article>
+                        <!-- Project 3 - Agent Orchestrator -->
+                        <article
+                            class="project-card glass-card fade-in"
+                            aria-labelledby="project-orchestrator"
+                        >
+                            <div class="project-accent accent-workflow"></div>
+                            <div class="project-header">
+                                <span class="project-icon" aria-hidden="true"
+                                    >🎯</span
+                                >
+                                <div class="project-links">
+                                    <span class="project-badge"
+                                        >AI Workflow</span
+                                    >
+                                </div>
+                            </div>
+                            <h3 id="project-orchestrator">
+                                Multi-Agent Orchestrator
+                            </h3>
+                            <p>
+                                Role-based agent management system for
+                                development workflows. Coordinates specialized
+                                agents for code generation, security review,
+                                testing, and deployment — all working in
+                                concert.
+                            </p>
+                            <div
+                                class="project-tags"
+                                aria-label="Technologies used"
+                            >
+                                <span class="tag">Agent Orchestration</span>
+                                <span class="tag">Role-based</span>
+                                <span class="tag">Workflow</span>
+                                <span class="tag">Automation</span>
+                            </div>
+                        </article>
 
-          <!-- Project 4 -->
-          <article class="project-card glass-card fade-in" aria-labelledby="project-workflow">
-            <div class="project-accent accent-workflow"></div>
-            <div class="project-header">
-              <span class="project-icon" aria-hidden="true">🔔</span>
-              <div class="project-links">
-                <span class="project-badge">Workflow</span>
-              </div>
-            </div>
-            <h3 id="project-workflow">Notification Workflow Engine</h3>
-            <p>BPMN-powered email notification tracking and inter-service event flow engine. Handles complex triggers
-              like
-              payment events across distributed services.</p>
-            <div class="project-tags" aria-label="Technologies used">
-              <span class="tag">Camunda</span>
-              <span class="tag">Flowable</span>
-              <span class="tag">BPMN</span>
-              <span class="tag">Spring Boot</span>
-            </div>
-          </article>
+                        <!-- Project 4 - AI CCTV Security -->
+                        <article
+                            class="project-card glass-card fade-in"
+                            aria-labelledby="project-cctv"
+                        >
+                            <div class="project-accent accent-ai"></div>
+                            <div class="project-header">
+                                <span class="project-icon" aria-hidden="true"
+                                    >📹</span
+                                >
+                                <div class="project-links">
+                                    <span class="project-badge"
+                                        >AI / Security</span
+                                    >
+                                </div>
+                            </div>
+                            <h3 id="project-cctv">
+                                AI-Enabled CCTV Security System
+                            </h3>
+                            <p>
+                                Real-time AI system for vehicle plate
+                                recognition, violence detection, and threat
+                                analysis. Integrated vision-language models
+                                (VLM) for contextual live video understanding.
+                            </p>
+                            <div
+                                class="project-tags"
+                                aria-label="Technologies used"
+                            >
+                                <span class="tag">YOLOv5</span>
+                                <span class="tag">OpenCV</span>
+                                <span class="tag">Flask</span>
+                                <span class="tag">SmolVLM</span>
+                            </div>
+                        </article>
 
-          <!-- Project 5 -->
-          <article class="project-card glass-card fade-in" aria-labelledby="project-fintech">
-            <div class="project-accent accent-fintech"></div>
-            <div class="project-header">
-              <span class="project-icon" aria-hidden="true">💰</span>
-              <div class="project-links">
-                <span class="project-badge">Fintech</span>
-              </div>
-            </div>
-            <h3 id="project-fintech">Fintech & Social Media Platforms</h3>
-            <p>Built prototypes for a loan distribution app for the Indian market and a cross-platform social posting
-              system with long-lived OAuth tokens for major platforms.</p>
-            <div class="project-tags" aria-label="Technologies used">
-              <span class="tag">Full Stack</span>
-              <span class="tag">OAuth</span>
-              <span class="tag">Facebook</span>
-              <span class="tag">LinkedIn</span>
-            </div>
-          </article>
+                        <!-- Project 5 - OAuth2 -->
+                        <article
+                            class="project-card glass-card fade-in"
+                            aria-labelledby="project-oauth"
+                        >
+                            <div class="project-accent accent-auth"></div>
+                            <div class="project-header">
+                                <span class="project-icon" aria-hidden="true"
+                                    >🔐</span
+                                >
+                                <div class="project-links">
+                                    <span class="project-badge">Security</span>
+                                </div>
+                            </div>
+                            <h3 id="project-oauth">
+                                OAuth2 Authorization Server
+                            </h3>
+                            <p>
+                                Production-ready OAuth2 JPA-based authorization
+                                server with client registration, token lifecycle
+                                management, user approval flows, and role-based
+                                authorities.
+                            </p>
+                            <div
+                                class="project-tags"
+                                aria-label="Technologies used"
+                            >
+                                <span class="tag">Spring Boot 3.2</span>
+                                <span class="tag">OAuth2</span>
+                                <span class="tag">JPA</span>
+                                <span class="tag">JWT</span>
+                            </div>
+                        </article>
 
-          <!-- Project 6 - Commitify -->
-          <article class="project-card glass-card fade-in" aria-labelledby="project-commitify">
-            <div class="project-accent accent-oss"></div>
-            <div class="project-header">
-              <span class="project-icon" aria-hidden="true">⚡</span>
-              <div class="project-links">
-                <a href="https://github.com/dinudsi/commitify" target="_blank" rel="noopener noreferrer"
-                  class="project-link" title="View Commitify on GitHub"
-                  aria-label="View Commitify source code on GitHub">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                    <path
-                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                  </svg>
-                </a>
-                <span class="project-badge">Open Source</span>
-              </div>
-            </div>
-            <h3 id="project-commitify">Commitify</h3>
-            <p>VS Code extension that automatically commits your changes every 5 minutes using GitHub Copilot to
-              generate
-              intelligent commit messages.</p>
-            <div class="project-tags" aria-label="Technologies used">
-              <span class="tag">TypeScript</span>
-              <span class="tag">VS Code</span>
-              <span class="tag">Copilot</span>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
+                        <!-- Project 6 - Commitify -->
+                        <article
+                            class="project-card glass-card fade-in"
+                            aria-labelledby="project-commitify"
+                        >
+                            <div class="project-accent accent-oss"></div>
+                            <div class="project-header">
+                                <span class="project-icon" aria-hidden="true"
+                                    >⚡</span
+                                >
+                                <div class="project-links">
+                                    <a
+                                        href="https://github.com/dinudsi/commitify"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="project-link"
+                                        title="View Commitify on GitHub"
+                                        aria-label="View Commitify source code on GitHub"
+                                    >
+                                        <svg
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 24 24"
+                                            fill="currentColor"
+                                            aria-hidden="true"
+                                        >
+                                            <path
+                                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                                            />
+                                        </svg>
+                                    </a>
+                                    <span class="project-badge"
+                                        >Open Source</span
+                                    >
+                                </div>
+                            </div>
+                            <h3 id="project-commitify">Commitify</h3>
+                            <p>
+                                VS Code extension that automatically commits
+                                your changes every 5 minutes using GitHub
+                                Copilot to generate intelligent commit messages.
+                                AI-powered developer productivity tool.
+                            </p>
+                            <div
+                                class="project-tags"
+                                aria-label="Technologies used"
+                            >
+                                <span class="tag">TypeScript</span>
+                                <span class="tag">VS Code</span>
+                                <span class="tag">Copilot</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
 
-    <!-- ============================================
+            <!-- ============================================
          ARCHITECTURE HIGHLIGHTS / EXPERIENCE
          ============================================ -->
-    <section class="section section-dark" id="experience" aria-labelledby="experience-heading">
-      <div class="container">
-        <div class="section-header fade-in">
-          <span class="section-tag">04 — Architecture</span>
-          <h2 class="section-title" id="experience-heading">Engineering <span class="gradient-text">Highlights</span>
-          </h2>
-          <p class="section-subtitle">
-            Key architectural accomplishments demonstrating Dinudsi's expertise in designing secure, scalable, and
-            production-ready systems across microservices, cloud infrastructure, and API management.
-          </p>
-        </div>
-        <div class="highlights-grid fade-in" role="list" aria-label="Engineering highlights">
-          <article class="highlight-card glass-card" role="listitem">
-            <div class="highlight-icon" aria-hidden="true">🏗️</div>
-            <h3>Microservice Blueprints</h3>
-            <p>Designed microservice architectures with secure inter-service authority sharing using non-HTTP access
-              patterns.</p>
-          </article>
-          <article class="highlight-card glass-card" role="listitem">
-            <div class="highlight-icon" aria-hidden="true">🔒</div>
-            <h3>Gateway Security</h3>
-            <p>Centralized CORS and gateway security using Spring Cloud Gateway for enterprise-grade API management.</p>
-          </article>
-          <article class="highlight-card glass-card" role="listitem">
-            <div class="highlight-icon" aria-hidden="true">🧰</div>
-            <h3>AWS IAM Architecture</h3>
-            <p>Implemented role-based access model with Root, Developer, Management, and Support roles for cloud
-              infrastructure.</p>
-          </article>
-          <article class="highlight-card glass-card" role="listitem">
-            <div class="highlight-icon" aria-hidden="true">🚀</div>
-            <h3>Reverse Proxy Systems</h3>
-            <p>Built reverse proxies for Solr and internal APIs to improve reliability, performance, and access control.
-            </p>
-          </article>
-        </div>
+            <section
+                class="section section-dark"
+                id="experience"
+                aria-labelledby="experience-heading"
+            >
+                <div class="container">
+                    <div class="section-header fade-in">
+                        <span class="section-tag">04 — AI Workflow</span>
+                        <h2 class="section-title" id="experience-heading">
+                            Agent <span class="gradient-text">Highlights</span>
+                        </h2>
+                        <p class="section-subtitle">
+                            How Dinudsi leverages AI agents, custom tooling, and
+                            security-first practices to deliver production
+                            software at 10x speed.
+                        </p>
+                    </div>
+                    <div
+                        class="highlights-grid fade-in"
+                        role="list"
+                        aria-label="Engineering highlights"
+                    >
+                        <article
+                            class="highlight-card glass-card"
+                            role="listitem"
+                        >
+                            <div class="highlight-icon" aria-hidden="true">
+                                🤖
+                            </div>
+                            <h3>Multi-Agent Orchestration</h3>
+                            <p>
+                                Runs role-based agents for code generation,
+                                review, testing, and deployment — coordinated
+                                through custom orchestrators.
+                            </p>
+                        </article>
+                        <article
+                            class="highlight-card glass-card"
+                            role="listitem"
+                        >
+                            <div class="highlight-icon" aria-hidden="true">
+                                🔌
+                            </div>
+                            <h3>Custom MCP Servers</h3>
+                            <p>
+                                Builds and maintains MCP servers that extend AI
+                                agent capabilities with custom tools,
+                                integrations, and workflows.
+                            </p>
+                        </article>
+                        <article
+                            class="highlight-card glass-card"
+                            role="listitem"
+                        >
+                            <div class="highlight-icon" aria-hidden="true">
+                                🧠
+                            </div>
+                            <h3>Agent Memory Systems</h3>
+                            <p>
+                                Designed persistent memory and context
+                                management tools (BrainSync) enabling agents to
+                                retain knowledge across sessions.
+                            </p>
+                        </article>
+                        <article
+                            class="highlight-card glass-card"
+                            role="listitem"
+                        >
+                            <div class="highlight-icon" aria-hidden="true">
+                                🔒
+                            </div>
+                            <h3>Security-First Review</h3>
+                            <p>
+                                Every PR reviewed with AI-assisted vulnerability
+                                detection, secret scanning, and threat modeling
+                                before merge.
+                            </p>
+                        </article>
+                    </div>
 
-        <!-- Philosophy -->
-        <div class="philosophy fade-in">
-          <div class="philosophy-inner glass-card">
-            <div class="quote-mark" aria-hidden="true">"</div>
-            <blockquote cite="https://dinudsi.github.io/">
-              <p>Build systems that are simple at the surface, powerful at the core, and scalable for the future.</p>
-            </blockquote>
-            <div class="philosophy-principles" role="list" aria-label="Engineering principles">
-              <div class="principle" role="listitem">
-                <span class="principle-icon" aria-hidden="true">🧩</span>
-                <span>Architecture First — clarity before code</span>
-              </div>
-              <div class="principle" role="listitem">
-                <span class="principle-icon" aria-hidden="true">⚡</span>
-                <span>Automate Everything — efficiency through workflows</span>
-              </div>
-              <div class="principle" role="listitem">
-                <span class="principle-icon" aria-hidden="true">🤖</span>
-                <span>AI by Design — intelligence at every level</span>
-              </div>
-              <div class="principle" role="listitem">
-                <span class="principle-icon" aria-hidden="true">🧠</span>
-                <span>Learn Relentlessly — exploring LLMs, Rust, privacy AI</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+                    <!-- Philosophy -->
+                    <div class="philosophy fade-in">
+                        <div class="philosophy-inner glass-card">
+                            <div class="quote-mark" aria-hidden="true">"</div>
+                            <blockquote cite="https://dinudsi.github.io/">
+                                <p>
+                                    I don't just write code — I orchestrate AI
+                                    systems that write, review, and ship code.
+                                </p>
+                            </blockquote>
+                            <div
+                                class="philosophy-principles"
+                                role="list"
+                                aria-label="Engineering principles"
+                            >
+                                <div class="principle" role="listitem">
+                                    <span
+                                        class="principle-icon"
+                                        aria-hidden="true"
+                                        >🏗️</span
+                                    >
+                                    <span
+                                        >Architecture First — robust
+                                        foundations, clean code</span
+                                    >
+                                </div>
+                                <div class="principle" role="listitem">
+                                    <span
+                                        class="principle-icon"
+                                        aria-hidden="true"
+                                        >🤖</span
+                                    >
+                                    <span
+                                        >AI Augmented — using agents as
+                                        multipliers, not replacements</span
+                                    >
+                                </div>
+                                <div class="principle" role="listitem">
+                                    <span
+                                        class="principle-icon"
+                                        aria-hidden="true"
+                                        >🔒</span
+                                    >
+                                    <span
+                                        >Security by Default — rigorous reviews,
+                                        secure by design</span
+                                    >
+                                </div>
+                                <div class="principle" role="listitem">
+                                    <span
+                                        class="principle-icon"
+                                        aria-hidden="true"
+                                        >⚡</span
+                                    >
+                                    <span
+                                        >Ship Fast — MVPs in days, 80% cost
+                                        reduction, scaled in weeks</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <!-- ============================================
+            <!-- ============================================
          CONTACT SECTION
          ============================================ -->
-    <section class="section" id="contact" aria-labelledby="contact-heading">
-      <div class="container">
-        <div class="section-header fade-in">
-          <span class="section-tag">05 — Contact</span>
-          <h2 class="section-title" id="contact-heading">Let's <span class="gradient-text">Connect</span></h2>
-        </div>
-        <div class="contact-content fade-in">
-          <p class="contact-lead">
-            Have an idea, a project, or just want to say hi?<br />
-            I'm always open to discussing new opportunities and collaborations.
-          </p>
-          <div class="contact-links" role="list" aria-label="Contact methods">
-            <a href="mailto:dpanchal.fullstack@gmail.com" class="contact-card glass-card" role="listitem"
-              aria-label="Send email to Dinudsi">
-              <span class="contact-icon" aria-hidden="true">✉️</span>
-              <div>
-                <strong>Email</strong>
-                <span>dpanchal.fullstack@gmail.com</span>
-              </div>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                aria-hidden="true">
-                <path d="M7 17L17 7M17 7H7M17 7V17" />
-              </svg>
-            </a>
-            <a href="https://github.com/dinudsi" target="_blank" rel="noopener noreferrer"
-              class="contact-card glass-card" role="listitem" aria-label="Visit Dinudsi's GitHub profile">
-              <span class="contact-icon" aria-hidden="true">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path
-                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                </svg>
-              </span>
-              <div>
-                <strong>GitHub</strong>
-                <span>github.com/dinudsi</span>
-              </div>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                aria-hidden="true">
-                <path d="M7 17L17 7M17 7H7M17 7V17" />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+            <section
+                class="section"
+                id="contact"
+                aria-labelledby="contact-heading"
+            >
+                <div class="container">
+                    <div class="section-header fade-in">
+                        <span class="section-tag">05 — Contact</span>
+                        <h2 class="section-title" id="contact-heading">
+                            Let's <span class="gradient-text">Connect</span>
+                        </h2>
+                    </div>
+                    <div class="contact-content fade-in">
+                        <p class="contact-lead">
+                            I am available to take on new MVPs and love working
+                            on challenging, out-of-the-box ideas.<br />
+                            Let's build something amazing together at
+                            unprecedented speed and reduced cost.
+                        </p>
+                        <div
+                            class="contact-links"
+                            role="list"
+                            aria-label="Contact methods"
+                        >
+                            <a
+                                href="mailto:dpanchal.fullstack@gmail.com"
+                                class="contact-card glass-card"
+                                role="listitem"
+                                aria-label="Send email to Dinudsi"
+                            >
+                                <span class="contact-icon" aria-hidden="true"
+                                    >✉️</span
+                                >
+                                <div>
+                                    <strong>Email</strong>
+                                    <span>dpanchal.fullstack@gmail.com</span>
+                                </div>
+                                <svg
+                                    width="20"
+                                    height="20"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    aria-hidden="true"
+                                >
+                                    <path d="M7 17L17 7M17 7H7M17 7V17" />
+                                </svg>
+                            </a>
+                            <a
+                                href="https://wa.me/917014478122"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="contact-card glass-card"
+                                role="listitem"
+                                aria-label="Chat with Dinudsi on WhatsApp"
+                            >
+                                <span class="contact-icon" aria-hidden="true">
+                                    <svg
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                        aria-hidden="true"
+                                    >
+                                        <path
+                                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                                        />
+                                    </svg>
+                                </span>
+                                <div>
+                                    <strong>WhatsApp</strong>
+                                    <span>+91 70144 78122</span>
+                                </div>
+                                <svg
+                                    width="20"
+                                    height="20"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    aria-hidden="true"
+                                >
+                                    <path d="M7 17L17 7M17 7H7M17 7V17" />
+                                </svg>
+                            </a>
+                            <a
+                                href="https://github.com/dinudsi"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="contact-card glass-card"
+                                role="listitem"
+                                aria-label="Visit Dinudsi's GitHub profile"
+                            >
+                                <span class="contact-icon" aria-hidden="true">
+                                    <svg
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                        aria-hidden="true"
+                                    >
+                                        <path
+                                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                                        />
+                                    </svg>
+                                </span>
+                                <div>
+                                    <strong>GitHub</strong>
+                                    <span>github.com/dinudsi</span>
+                                </div>
+                                <svg
+                                    width="20"
+                                    height="20"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    aria-hidden="true"
+                                >
+                                    <path d="M7 17L17 7M17 7H7M17 7V17" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-  </main>
-
-  <!-- ============================================
+        <!-- ============================================
        FOOTER
        ============================================ -->
-  <footer class="footer" role="contentinfo">
-    <div class="container">
-      <div class="footer-inner">
-        <span class="footer-logo" aria-hidden="true">
-          <span class="logo-bracket">&lt;</span>dinudsi<span class="logo-bracket"> /&gt;</span>
-        </span>
-        <p>Turning complex ideas into scalable, intelligent systems.</p>
-        <span class="footer-copy">&copy; 2026 Dinudsi. Built with passion.</span><br />
-        <img src="https://visitor-badge.laobi.icu/badge?page_id=dinudsi" alt="Dinudsi — Full Stack AI Engineer from Udaipur"
-          width="120" height="20" loading="lazy" />
-      </div>
-    </div>
-  </footer>
+        <footer class="footer" role="contentinfo">
+            <div class="container">
+                <div class="footer-inner">
+                    <span class="footer-logo" aria-hidden="true">
+                        <span class="logo-bracket">&lt;</span>dinudsi<span
+                            class="logo-bracket"
+                        >
+                            /&gt;</span
+                        >
+                    </span>
+                    <p>
+                        Orchestrating AI agents to ship production software at
+                        10x speed.
+                    </p>
+                    <span class="footer-copy"
+                        >&copy; 2026 Dinudsi. Built with passion.</span
+                    ><br />
+                    <img
+                        src="https://visitor-badge.laobi.icu/badge?page_id=dinudsi"
+                        alt="Dinudsi — Full Stack AI Engineer from Udaipur"
+                        width="120"
+                        height="20"
+                        loading="lazy"
+                    />
+                </div>
+            </div>
+        </footer>
 
-  <!-- ============================================
+        <!-- ============================================
        HIDDEN CONTENT FOR AI/GEO CRAWLERS
        Semantic, structured content that AI engines parse for knowledge graph building.
        Visually hidden but fully accessible to screen readers and crawlers.
        ============================================ -->
-  <div class="sr-only" aria-hidden="false">
-    <h2>About Dinudsi — Summary for AI Search Engines</h2>
-    <p>
-      Dinudsi, is a Full Stack Architect and AI Engineer based in Udaipur, Rajasthan,
-      India. He has over 12 years of professional software engineering experience, having started coding in 2009.
-    </p>
-    <p>
-      His core expertise includes backend development with Spring Boot 3.x and Node.js, AI and machine learning
-      systems using YOLOv5, OpenCV, LangChain, and Retrieval-Augmented Generation (RAG), enterprise security with
-      OAuth2 and JWT, cloud infrastructure on AWS with Docker and CI/CD pipelines, and workflow automation with
-      Camunda and Flowable BPMN engines.
-    </p>
-    <p>
-      Notable projects by Dinudsi include an AI-Enabled CCTV Security System using computer vision for real-time
-      threat detection, a RAG-based Educational AI Assistant that generates personalized study responses from
-      documents, a production-grade OAuth2 Authorization Server built with Spring Boot 3.2, a BPMN-powered
-      Notification Workflow Engine, fintech and social media platform prototypes, and Commitify — an open-source
-      VS Code extension that auto-generates commit messages using GitHub Copilot.
-    </p>
-    <p>
-      He has worked with Skywings LTD and Tune-itcon, and is currently learning Rust, local LLMs, and privacy AI.
-      He can be reached at dpanchal.fullstack@gmail.com or via GitHub at github.com/dinudsi.
-    </p>
+        <div class="sr-only" aria-hidden="false">
+            <h2>About Dinudsi — Summary for AI Search Engines</h2>
+            <p>
+                Dinudsi is a Full Stack Architect and AI-Native Developer based
+                in Udaipur, Rajasthan, India. With 13+ years of software
+                engineering experience since 2009, he combines deep expertise in
+                traditional software architecture with modern AI-augmented
+                workflows.
+            </p>
+            <p>
+                His core engineering skills include Spring Boot, Node.js,
+                PostgreSQL, Docker, AWS, and secure OAuth2 implementation. He
+                augments this foundation by orchestrating AI coding agents like
+                Claude Code, Codex, and Copilot CLI to ship production software
+                rapidly. He also builds custom MCP (Model Context Protocol)
+                servers and agent memory systems to extend AI capabilities.
+            </p>
+            <p>
+                Notable projects include BrainSync (a cross-agent memory
+                system), BrainByte (a transformer-based language model built
+                from scratch), a custom MCP server ecosystem, an AI-Enabled CCTV
+                Security System, a production OAuth2 Authorization Server, and
+                Commitify (an open-source VS Code extension for AI
+                auto-commits).
+            </p>
+            <p>
+                His philosophy bridges robust system design with AI-accelerated
+                execution, focusing heavily on security-first code reviews and
+                scalable architecture. Contact: dpanchal.fullstack@gmail.com |
+                GitHub: github.com/dinudsi
+            </p>
 
-    <h2>Frequently Asked Questions about Dinudsi</h2>
-    <dl>
-      <dt>Who is Dinudsi?</dt>
-      <dd>Dinudsi is a Full Stack Architect and AI Engineer from Udaipur, India, with 12+ years of
-        experience building intelligent, scalable software systems.</dd>
+            <h2>Frequently Asked Questions about Dinudsi</h2>
+            <dl>
+                <dt>Who is Dinudsi?</dt>
+                <dd>
+                    Dinudsi is a Full Stack Architect and AI-Native Developer
+                    from Udaipur, India, with 13+ years of experience. He builds
+                    robust, scalable systems and uses AI coding agents to
+                    accelerate development.
+                </dd>
 
-      <dt>What programming languages and frameworks does Dinudsi use?</dt>
-      <dd>Java, Spring Boot 3.x, Node.js, Python, TypeScript, Flask, React Native, and Ionic. He also works with
-        AI/ML tools like YOLOv5, OpenCV, LangChain, and vector databases such as FAISS, Qdrant, and Milvus.</dd>
+                <dt>What technologies does Dinudsi specialize in?</dt>
+                <dd>
+                    He specializes in backend architecture (Spring Boot,
+                    Node.js, PostgreSQL, AWS) and AI orchestration (Claude Code,
+                    Codex, custom MCP servers, agent workflows).
+                </dd>
 
-      <dt>What kind of AI projects has Dinudsi built?</dt>
-      <dd>He built an AI-Enabled CCTV Security System with YOLOv5 for real-time video analysis and a RAG-based
-        Educational AI Assistant using ChatGPT API and vector databases for personalized learning.</dd>
+                <dt>What has Dinudsi built?</dt>
+                <dd>
+                    He has built enterprise systems like OAuth2 Authorization
+                    Servers and Workflow Engines, alongside AI tooling like
+                    BrainSync, BrainByte (a transformer language model from
+                    scratch), MCP server ecosystems, and the Commitify VS Code
+                    extension.
+                </dd>
 
-      <dt>Is Dinudsi available for hire or collaboration?</dt>
-      <dd>Yes, Dinudsi is currently available for collaborations, freelance projects, and full-time opportunities.
-        Contact him at dpanchal.fullstack@gmail.com.</dd>
+                <dt>Is Dinudsi available for hire or collaboration?</dt>
+                <dd>
+                    Yes, Dinudsi is available for full-stack architecture
+                    projects, MVP delivery, and AI integration. Contact him at
+                    dpanchal.fullstack@gmail.com.
+                </dd>
 
-      <dt>What is Dinudsi's approach to software architecture?</dt>
-      <dd>His philosophy is: "Build systems that are simple at the surface, powerful at the core, and scalable for the
-        future." He prioritizes clean architecture, automation, AI-by-design, and continuous learning.</dd>
-    </dl>
-  </div>
+                <dt>What is Dinudsi's development philosophy?</dt>
+                <dd>
+                    He believes in "Architecture First" and uses "AI as a
+                    multiplier." He designs robust, secure systems and uses AI
+                    agents to execute and ship code 10x faster.
+                </dd>
+            </dl>
+        </div>
 
-  <script src="script.js"></script>
-</body>
+        <!-- Floating WhatsApp Button -->
+        <a
+            href="https://wa.me/917014478122"
+            class="floating-wa"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Chat with Dinudsi on WhatsApp"
+        >
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                />
+            </svg>
+        </a>
 
+        <script src="script.js"></script>
+    </body>
 </html>
